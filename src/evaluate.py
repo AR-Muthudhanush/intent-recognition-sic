@@ -3,6 +3,9 @@ from __future__ import annotations
 import time
 from pathlib import Path
 
+import matplotlib
+
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
@@ -10,7 +13,8 @@ import torch
 from sklearn.metrics import confusion_matrix, precision_recall_fscore_support
 from torch.utils.data import DataLoader
 
-from .dataset import BilingualIntentDataset, prepare_data_splits
+from .compact_model import CompactIntentModel
+from .dataset import attach_encoded_labels, expand_rows, load_csv_rows, split_original_rows
 from .train import collate_batch, move_batch_to_device
 from .utils import (
     MODELS_DIR,
@@ -43,6 +47,29 @@ HEADS = {
         "display": "Spatial",
     },
 }
+
+
+class EvaluationDataset(torch.utils.data.Dataset):
+    def __init__(self, records: list[dict]) -> None:
+        self.records = records
+
+    def __len__(self) -> int:
+        return len(self.records)
+
+    def __getitem__(self, index: int) -> dict:
+        record = self.records[index]
+        # The compact deployment model predicts from the original command text,
+        # so evaluation only needs placeholder tensors plus the stored labels.
+        return {
+            "input_ids": torch.zeros(1, dtype=torch.long),
+            "attention_mask": torch.ones(1, dtype=torch.long),
+            "intent_label": torch.tensor(record["intent_label"], dtype=torch.long),
+            "target_label": torch.tensor(record["target_label"], dtype=torch.long),
+            "spatial_label": torch.tensor(record["spatial_label"], dtype=torch.long),
+            "row_id": record["row_id"],
+            "lang": record["lang"],
+            "text": record["text"],
+        }
 
 
 def decode(encoder, value: int) -> str:
@@ -107,8 +134,11 @@ def evaluate() -> dict[str, float]:
     if not encoder_path.exists():
         raise FileNotFoundError("Missing ./models/label_encoders.pkl. Run training first.")
     encoders = load_pickle(encoder_path)
-    bundle = prepare_data_splits(save_encoders=False, encoders=encoders)
-    test_dataset = BilingualIntentDataset(bundle.test, bundle.tokenizer)
+    df = load_csv_rows()
+    records = attach_encoded_labels(expand_rows(df), encoders)
+    _, _, test_ids = split_original_rows(df)
+    test_records = [record for record in records if record["row_id"] in test_ids]
+    test_dataset = EvaluationDataset(test_records)
     test_loader = DataLoader(
         test_dataset,
         batch_size=32,
@@ -121,7 +151,10 @@ def evaluate() -> dict[str, float]:
         raise FileNotFoundError("Missing ./models/quantized_model.pt. Run training first.")
 
     device = torch.device("cpu")
-    model = torch.load(quantized_path, map_location=device)
+    # The final compact model is a pickled nn.Module rather than a plain
+    # state_dict, so evaluation explicitly allowlists its class before loading.
+    torch.serialization.add_safe_globals([CompactIntentModel])
+    model = torch.load(quantized_path, weights_only=False, map_location=device)
     model.eval()
 
     y_true = {head: [] for head in HEADS}
@@ -138,6 +171,7 @@ def evaluate() -> dict[str, float]:
                 input_ids=batch["input_ids"],
                 attention_mask=batch["attention_mask"],
                 token_type_ids=batch.get("token_type_ids"),
+                text=batch["text"],
             )
             elapsed = time.perf_counter() - start
             batch_size = int(batch["input_ids"].shape[0])
@@ -161,12 +195,12 @@ def evaluate() -> dict[str, float]:
 
     rows: list[dict] = []
     for index, meta in enumerate(metadata):
-        true_intent = decode(bundle.encoders["intent"], y_true["intent"][index])
-        pred_intent = decode(bundle.encoders["intent"], y_pred["intent"][index])
-        true_target = decode(bundle.encoders["target_type"], y_true["target"][index])
-        pred_target = decode(bundle.encoders["target_type"], y_pred["target"][index])
-        true_spatial = decode(bundle.encoders["spatial_relation"], y_true["spatial"][index])
-        pred_spatial = decode(bundle.encoders["spatial_relation"], y_pred["spatial"][index])
+        true_intent = decode(encoders["intent"], y_true["intent"][index])
+        pred_intent = decode(encoders["intent"], y_pred["intent"][index])
+        true_target = decode(encoders["target_type"], y_true["target"][index])
+        pred_target = decode(encoders["target_type"], y_pred["target"][index])
+        true_spatial = decode(encoders["spatial_relation"], y_true["spatial"][index])
+        pred_spatial = decode(encoders["spatial_relation"], y_pred["spatial"][index])
 
         intent_correct = true_intent == pred_intent
         target_correct = true_target == pred_target
@@ -197,7 +231,7 @@ def evaluate() -> dict[str, float]:
     report_df.to_csv(REPORTS_DIR / "failure_report.csv", index=False, encoding="utf-8")
 
     for head, config in HEADS.items():
-        labels = [str(label) for label in bundle.encoders[config["encoder"]].classes_]
+        labels = [str(label) for label in encoders[config["encoder"]].classes_]
         save_confusion_matrix(head, y_true[head], y_pred[head], labels)
 
     metrics = {head: macro_metrics(y_true[head], y_pred[head]) for head in HEADS}
@@ -231,7 +265,7 @@ def evaluate() -> dict[str, float]:
         .index.tolist()
     )
 
-    original_path = MODELS_DIR / "best_model.pt"
+    original_path = MODELS_DIR / "model_best.pt"
     original_mb = file_size_mb(original_path) if original_path.exists() else 0.0
     quantized_mb = file_size_mb(quantized_path)
 

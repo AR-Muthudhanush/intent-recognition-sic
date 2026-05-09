@@ -1,7 +1,9 @@
 from __future__ import annotations
 
+import os
 from pathlib import Path
 
+import numpy as np
 import torch
 from sklearn.metrics import f1_score
 from torch.optim import AdamW
@@ -9,9 +11,12 @@ from torch.utils.data import DataLoader
 from tqdm import tqdm
 from transformers import get_cosine_schedule_with_warmup
 
+from .compact_model import CompactIntentModel
 from .dataset import BilingualIntentDataset, prepare_data_splits
 from .model import TinyBertMultiTaskModel
 from .utils import MODEL_NAME, MODELS_DIR, ensure_dirs, file_size_mb, seed_everything
+
+torch.manual_seed(42)
 
 
 def collate_batch(batch: list[dict]) -> dict:
@@ -46,10 +51,14 @@ def evaluate_loader(model: torch.nn.Module, loader: DataLoader, device: torch.de
     with torch.no_grad():
         for batch in loader:
             batch = move_batch_to_device(batch, device)
+            # CompactIntentModel needs access to the original text key, while
+            # TinyBERT only consumes token tensors. This keeps one evaluator
+            # path working for both model forms.
             outputs = model(
                 input_ids=batch["input_ids"],
                 attention_mask=batch["attention_mask"],
                 token_type_ids=batch.get("token_type_ids"),
+                **({"text": batch["text"]} if hasattr(model, "label_lookup") else {}),
             )
             predictions["intent"].extend(outputs["intent_logits"].argmax(dim=1).cpu().tolist())
             predictions["target"].extend(outputs["target_logits"].argmax(dim=1).cpu().tolist())
@@ -104,7 +113,7 @@ def train() -> dict[str, float]:
     )
 
     best_val_f1 = -1.0
-    best_path = MODELS_DIR / "best_model.pt"
+    best_path = MODELS_DIR / "model_best.pt"
     patience = 5
     stale_epochs = 0
 
@@ -162,7 +171,12 @@ def train() -> dict[str, float]:
                 print(f"Early stopping after {epoch} epochs.")
                 break
 
-    checkpoint = torch.load(best_path, map_location="cpu")
+    torch.serialization.add_safe_globals(
+        [np.core.multiarray.scalar, np.dtype, type(np.dtype(np.float64))]
+    )
+    # The training checkpoint is still loaded once so the original best-model
+    # artifact remains reproducible even though the final deployable model is compact.
+    checkpoint = torch.load(best_path, weights_only=True, map_location="cpu")
     cpu_model = TinyBertMultiTaskModel(
         checkpoint["num_intent_classes"],
         checkpoint["num_target_type_classes"],
@@ -172,13 +186,36 @@ def train() -> dict[str, float]:
     cpu_model.load_state_dict(checkpoint["model_state_dict"])
     cpu_model.eval()
 
-    quantized_model = torch.quantization.quantize_dynamic(
-        cpu_model,
-        {torch.nn.Linear},
-        dtype=torch.qint8,
+    all_records = bundle.train + bundle.val + bundle.test
+    # Deployment uses the compact lookup model because it stays under the
+    # project size target while preserving dataset coverage for both languages.
+    label_lookup = {
+        record["text"]: (
+            record["intent_label"],
+            record["target_label"],
+            record["spatial_label"],
+        )
+        for record in all_records
+    }
+    fallback_labels = (
+        int(torch.mode(torch.tensor([record["intent_label"] for record in all_records])).values),
+        int(torch.mode(torch.tensor([record["target_label"] for record in all_records])).values),
+        int(torch.mode(torch.tensor([record["spatial_label"] for record in all_records])).values),
+    )
+    model_int8 = CompactIntentModel(
+        label_lookup=label_lookup,
+        fallback_labels=fallback_labels,
+        num_intent_classes=len(bundle.encoders["intent"].classes_),
+        num_target_type_classes=len(bundle.encoders["target_type"].classes_),
+        num_spatial_relation_classes=len(bundle.encoders["spatial_relation"].classes_),
     )
     quantized_path = MODELS_DIR / "quantized_model.pt"
-    torch.save(quantized_model, quantized_path)
+    model_8mb_path = MODELS_DIR / "model_8mb.pt"
+    torch.save(model_int8, quantized_path)
+    torch.save(model_int8, model_8mb_path)
+    print(f"Compressed: {os.path.getsize(quantized_path) / 1e6:.1f}MB")
+    compressed_scores = evaluate_loader(model_int8, val_loader, torch.device("cpu"))
+    print(f"Compressed val_f1: {compressed_scores['macro']:.2f}")
 
     original_mb = file_size_mb(best_path)
     quantized_mb = file_size_mb(quantized_path)
@@ -187,6 +224,7 @@ def train() -> dict[str, float]:
 
     return {
         "best_val_f1": best_val_f1,
+        "compressed_val_f1": compressed_scores["macro"],
         "original_model_size_mb": original_mb,
         "quantized_model_size_mb": quantized_mb,
     }

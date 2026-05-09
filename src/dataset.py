@@ -92,6 +92,8 @@ def expand_rows(df: pd.DataFrame) -> list[dict[str, Any]]:
     records: list[dict[str, Any]] = []
     for row in df.itertuples(index=False):
         labels = {column: getattr(row, column) for column in LABEL_COLUMNS}
+        # Each source row becomes two training examples so the model sees
+        # equivalent English and Korean commands with the same labels.
         records.append(
             {
                 "row_id": int(row.row_id),
@@ -171,5 +173,7 @@ def prepare_data_splits(
     print_language_distribution("Val", val)
     print_language_distribution("Test", test)
 
+    # The tokenizer stays shared across both languages because the text prefix
+    # carries the language cue and the label space is common.
     tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
     return SplitBundle(train=train, val=val, test=test, encoders=encoders, tokenizer=tokenizer)
