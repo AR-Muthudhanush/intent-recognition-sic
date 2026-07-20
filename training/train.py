@@ -76,13 +76,41 @@ def split_dataset(dataset: Dataset, train_ratio: float = 0.8):
     train_data = [dataset.samples[i] for i in train_indices]
     eval_data = [dataset.samples[i] for i in eval_indices]
 
-    train_subset = type(dataset)(csv_path='dummy', tokenizer=dataset.tokenizer)
-    train_subset.samples = train_data
-    train_subset.intent_to_id = dataset.intent_to_id
+    class DatasetSubset(Dataset):
+        def __init__(self, samples, tokenizer, intent_to_id, max_seq_length=128):
+            self.samples = samples
+            self.tokenizer = tokenizer
+            self.intent_to_id = intent_to_id
+            self.max_seq_length = max_seq_length
 
-    eval_subset = type(dataset)(csv_path='dummy', tokenizer=dataset.tokenizer)
-    eval_subset.samples = eval_data
-    eval_subset.intent_to_id = dataset.intent_to_id
+        def __len__(self):
+            return len(self.samples)
+
+        def __getitem__(self, idx):
+            sample = self.samples[idx]
+            command = sample['command']
+
+            encoding = self.tokenizer(
+                command,
+                max_length=self.max_seq_length,
+                padding='max_length',
+                truncation=True,
+                return_tensors='pt'
+            )
+
+            intent_id = self.intent_to_id.get(sample['intent'], 0)
+            entity_labels = ['O'] * len(encoding['input_ids'][0])
+            entity_ids = [ConfigManager.get_entity_id(entity) for entity in entity_labels]
+
+            return {
+                'input_ids': encoding['input_ids'].squeeze(0),
+                'attention_mask': encoding['attention_mask'].squeeze(0),
+                'intent_id': torch.tensor(intent_id, dtype=torch.long),
+                'entity_ids': torch.tensor(entity_ids, dtype=torch.long),
+            }
+
+    train_subset = DatasetSubset(train_data, dataset.tokenizer, dataset.intent_to_id)
+    eval_subset = DatasetSubset(eval_data, dataset.tokenizer, dataset.intent_to_id)
 
     return train_subset, eval_subset
 
@@ -168,7 +196,13 @@ def train():
     print(f"Using device: {device}")
 
     tokenizer = AutoTokenizer.from_pretrained(ConfigManager.MODEL_CONFIG['model_name'])
-    dataset = IntentDataset('dataset/dataset.csv', tokenizer)
+
+    import os
+    dataset_path = 'dataset/dataset.csv'
+    if not os.path.exists(dataset_path):
+        dataset_path = '../dataset/dataset.csv'
+
+    dataset = IntentDataset(dataset_path, tokenizer)
 
     train_dataset, eval_dataset = split_dataset(dataset, train_ratio=0.8)
 

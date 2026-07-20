@@ -15,6 +15,8 @@ from tqdm import tqdm
 
 def evaluate_model(model_path: str = "bert_tiny_model", dataset_path: str = "dataset/dataset.csv"):
     """Evaluate trained model on dataset."""
+    import os
+
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
     tokenizer = AutoTokenizer.from_pretrained(model_path)
@@ -26,6 +28,9 @@ def evaluate_model(model_path: str = "bert_tiny_model", dataset_path: str = "dat
 
     model.load_state_dict(torch.load(f"{model_path}/pytorch_model.bin", map_location=device))
     model.eval()
+
+    if not os.path.exists(dataset_path):
+        dataset_path = f"../{dataset_path}"
 
     dataset = IntentDataset(dataset_path, tokenizer)
     test_size = int(len(dataset) * 0.2)
