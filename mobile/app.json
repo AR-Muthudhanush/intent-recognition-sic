@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Intent Recognition",
+    "slug": "intent-recognition",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTabletMode": true
+    },
+    "android": {
+      "useNextNotificationFormat": true,
+      "package": "com.intentrecognition.app",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-file-system"
+      ],
+      [
+        "expo-sharing"
+      ]
+    ],
+    "scheme": "intent-recognition"
+  }
+}

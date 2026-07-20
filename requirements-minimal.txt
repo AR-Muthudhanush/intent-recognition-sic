@@ -1,0 +1,5 @@
+# Minimal requirements for inference-only (no training)
+torch>=2.2.0
+transformers>=4.35.0
+numpy>=1.24.0
+tqdm>=4.66.0

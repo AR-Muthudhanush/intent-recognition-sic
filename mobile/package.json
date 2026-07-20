@@ -1,0 +1,39 @@
+{
+  "name": "intent-recognition",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-native": "0.72.0",
+    "expo": "~49.0.0",
+    "expo-file-system": "~15.4.0",
+    "expo-sharing": "~12.0.0",
+    "react-native-paper": "5.10.0",
+    "react-navigation": "^4.4.4",
+    "react-native-gesture-handler": "~2.14.0",
+    "react-native-reanimated": "~3.3.0",
+    "react-native-screens": "~3.22.0",
+    "@react-navigation/native": "^4.11.12",
+    "@react-navigation/bottom-tabs": "^5.11.11",
+    "@react-navigation/stack": "^5.18.8",
+    "axios": "^1.6.0",
+    "react-native-async-storage": "^1.17.11",
+    "react-native-vector-icons": "9.2.0",
+    "moment": "^2.29.4",
+    "@react-native-async-storage/async-storage": "1.19.0",
+    "react-native-share": "8.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@react-native-async-storage/async-storage": "1.19.0"
+  },
+  "private": true
+}
