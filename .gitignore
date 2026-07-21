@@ -3,35 +3,57 @@
 venv/
 env/
 ENV/
+*.venv
 
 # Python cache and compiled artifacts
 __pycache__/
 *.py[cod]
 *$py.class
-
-# Build, packaging, and test output
+*.so
+.Python
 build/
+develop-eggs/
 dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
 *.egg-info/
+.installed.cfg
+*.egg
+
+# Testing and coverage
 .pytest_cache/
-.mypy_cache/
-.ruff_cache/
 .coverage
 .coverage.*
 htmlcov/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
 
-# Local editor and OS files
+# IDE and editor
 .vscode/
 .idea/
 *.swp
 *.swo
+*.swn
+*~
 .DS_Store
 Thumbs.db
+*.sublime-project
+*.sublime-workspace
 
-# Runtime logs and local configuration
+# Runtime and logs
 *.log
+logs/
 .env
-.env.*
+.env.local
+.env.*.local
 
 # Node.js (Mobile app)
 mobile/node_modules/
@@ -39,12 +61,28 @@ mobile/package-lock.json
 mobile/.expo/
 mobile/.expo-shared/
 mobile/dist/
+mobile/*.jks
+mobile/*.keystore
 
 # Expo
 .expo/
+.expo-shared/
 
-
+# Large model files
 bert_tiny_model/
 *.bin
+pytorch_model.bin
 
-bert_tiny_model/pytorch_model.bin
+# OS temporary files
+.DS_Store
+.AppleDouble
+.LSOverride
+.TemporaryItems
+
+# System files
+desktop.ini
+$RECYCLE.BIN/
+
+# IDE cache
+.cache/
+*.bak
