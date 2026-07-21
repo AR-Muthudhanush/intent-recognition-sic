@@ -18,26 +18,14 @@ This system recognizes natural language UI commands and converts them into struc
 ## UI Showcase
 
 ### Web Application
-![Web Interface](outputs/intent2.png)
+![Web Interface](outputs/intent_classiffication%201.png)
 
 ### Classification Demo
-![Classification Example](outputs/intent3.png)
+![Classification Example](outputs/intent2.png)
 
-### Mobile UI
-![Mobile Interface](outputs/intent_classiffication%201.png)
+### Model metrics
+![Model metrics](outputs/intent3.png)
 
-## Performance Metrics
-
-### Confusion Matrices
-
-#### Intent Classification
-![Intent Confusion Matrix](reports/confusion_matrix_intent.png)
-
-#### Spatial Classification  
-![Spatial Confusion Matrix](reports/confusion_matrix_spatial.png)
-
-#### Target Type Classification
-![Target Confusion Matrix](reports/confusion_matrix_target.png)
 
 ### Performance Summary
 
@@ -360,7 +348,5 @@ No license currently included. See LICENSE file for details.
 For issues, questions, or contributions, please open an issue on GitHub.
 
 ---
-
-**Project Status**: Production-Ready ✓
 
 Last Updated: 2026-07-21
