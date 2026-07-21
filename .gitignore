@@ -33,4 +33,18 @@ Thumbs.db
 .env
 .env.*
 
+# Node.js (Mobile app)
+mobile/node_modules/
+mobile/package-lock.json
+mobile/.expo/
+mobile/.expo-shared/
+mobile/dist/
 
+# Expo
+.expo/
+
+
+bert_tiny_model/
+*.bin
+
+bert_tiny_model/pytorch_model.bin

@@ -13,13 +13,23 @@ from train import IntentDataset
 import numpy as np
 from tqdm import tqdm
 
-def evaluate_model(model_path: str = "bert_tiny_model", dataset_path: str = "dataset/dataset.csv"):
+def evaluate_model(model_path: str = None, dataset_path: str = "dataset/dataset_balanced_1932.csv"):
     """Evaluate trained model on dataset."""
     import os
+    from pathlib import Path
 
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-    tokenizer = AutoTokenizer.from_pretrained(model_path)
+    # Auto-detect model path if not provided
+    if model_path is None:
+        if Path("models/model_best.pt").exists():
+            model_path = "../models"
+        elif Path("../models/model_best.pt").exists():
+            model_path = "../models"
+        else:
+            raise FileNotFoundError("Model not found in models/ directory")
+
+    tokenizer = AutoTokenizer.from_pretrained("bert-base-multilingual-uncased")
     model = MultitaskIntentModel(
         model_name=model_path,
         num_intents=len(ConfigManager.INTENTS),
@@ -30,8 +40,12 @@ def evaluate_model(model_path: str = "bert_tiny_model", dataset_path: str = "dat
     model.eval()
 
     if not os.path.exists(dataset_path):
-        dataset_path = f"../{dataset_path}"
+        # Fallback to full dataset if balanced version not found
+        dataset_path = 'dataset/dataset.csv'
+        if not os.path.exists(dataset_path):
+            dataset_path = f"../dataset/dataset.csv"
 
+    print(f"Loading dataset: {dataset_path}")
     dataset = IntentDataset(dataset_path, tokenizer)
     test_size = int(len(dataset) * 0.2)
     test_indices = np.random.choice(len(dataset), test_size, replace=False)

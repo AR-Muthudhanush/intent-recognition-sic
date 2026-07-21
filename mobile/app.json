@@ -17,14 +17,6 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "plugins": [
-      [
-        "expo-file-system"
-      ],
-      [
-        "expo-sharing"
-      ]
-    ],
     "scheme": "intent-recognition"
   }
 }

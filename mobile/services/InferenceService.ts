@@ -14,8 +14,10 @@ interface PredictionResult {
 }
 
 class InferenceService {
+  // For local development: change to your computer's IP for testing on actual device
+  // Example: 'http://192.168.1.100:5000/api'
   private baseUrl: string = 'http://localhost:5000/api';
-  private isLocalModel: boolean = true;
+  private isLocalModel: boolean = false;  // Use remote API by default
 
   INTENTS = [
     'click', 'tap', 'double_tap', 'long_press', 'scroll', 'swipe',

@@ -1,0 +1,1933 @@
+command,intent,target,attribute,label,index,relation,reference
+delete image,delete,image,,notification,1,behind,popup
+지우세요 switch,delete,switch,,search,,next_to,download button
+long_press the calendar,long_press,calendar,expanded,confirm,76,second_row,
+long_press the popup,long_press,popup,expanded,logout,,outside,edit button
+i think login notification,login,notification,active,empty,56,before,audio player
+delete the progress_bar,delete,progress_bar,,password,49,right_edge,share button
+drag password,drag,password,light,share,66,right_edge,audio player
+삭제 text,delete,text,italic,,,next_to,
+close on table,close,table,collapsed,,,third,
+please login camera,login,camera,,back,,left,
+please drag radio_buttok,drag,radio_button,,,,left,
+delete the password,delete,password,,loading,,under,edit button
+actually please close table,close,table,underlined,,,center,card list
+long_press popup,long_press,popup,warning,,7,left_edge,
+can you drag tab,drag,tab,strikethrough,,18,farthest,
+i think check the gallery,check,gallery,green,error,86,left,
+actually can you drag gallery,drag,gallery,focused,,40,first_row,
+please delete link,delete,link,large,,,first_row,settings button
+like check the file,check,file,secondary,,17,top_right,cancel button
+unpin slider,unpin,slider,expanded,download,,second_row,calendar view
+8npin tab,unpin,tab,,,50,inside,
+please unpin progress_bar,unpin,progress_bar,,,0,right_edge,
+check slider,check,slider,,,67,between,card list
+maybe login the dialog,login,dialog,,import,,center,calendar view
+unpin chart,unpin,chart,,search,78,next_to,
+check 아이콘,check,icon,dark,,,outside,top navigation
+삭제 calendar,delete,calendar,,,97,farthest,
+actually long_press the camera,long_press,camera,,login,16,first_row,
+accept chact,accept,chart,blue,,,right_edge,
+login progress_bar,login,progress_bar,small,,74,in_front_of,
+please login menu,login,menu,,,34,last,address field
+can you unpin graph,unpin,graph,italic,alert,42,above,dialog box
+you know login camera,login,camera,small,refresh,0,behind,
+check notification,check,notification,info,success,85,center_right,
+maybe launch checkbox,launch,checkbox,secondary,,52,first_column,
+accept the dropdown,accept,dropdown,italic,filter,5,behind,
+please close slider,close,slider,,,21,nearest,popup
+close imput,close,input,small,,,second_last,
+please drag camera,drag,camera,focused,,29,in_front_of,top navigation
+like can you launch icon,launch,icon,primary,profile,,bottom_right,
+unpin the input,unpin,input,,,50,last_column,cart icon
+chec6 link,check,link,,share,,outside,
+summit the dropdown,submit,dropdown,,edit,99,behind,header
+can you launch message,launch,message,blue,share,,in_front_of,
+submit on file,submit,file,yellow,,,after,
+unpin popup,unpin,popup,warning,,,inside,card list
+long_press 입력,long_press,input,light,home,41,inside,
+can you login switch,login,switch,,delete,96,last_column,
+subm1t the card,submit,card,,export,96,below,settings button
+launch icon,launch,icon,,,,under,
+cnn you launch hab,launch,tab,dark,password,21,farthest,message field
+long_presu the dropdewn,long_press,dropdown,,previous,65,bottom_right,
+like please launch dialog,launch,dialog,,,79,left_edge,
+alease check chart,check,chart,,home,66,third,table view
+please unpin checkbox,unpin,checkbox,,save,85,behind,save button
+you know drag chart,drag,chart,,,88,inside,
+launch the audio,launch,audio,active,confirm,71,center,
+unpin the camera,unpin,camera,,alert,14,first_row,
+please long_press dialog,long_press,dialog,,,,third,top navigation
+close the strikethrough dialog,close,dialog,strikethrough,,,top_right,
+login checkbox,login,checkbox,,next,,farthest,
+check text,check,text,bold,,,first_row,
+just please delete file,delete,file,dark,export,20,lower_center,back button
+please delete tab,delete,tab,,address,44,bottom_right,delete button
+like unpin file,unpin,file,,,,bottom_right,
+drsg calendar,drag,calendar,red,,,last,
+like can you long_press checkbox,long_press,checkbox,danger,register,,left,
+unpin the audio,unpin,audio,active,,35,nearest,modal
+subm1t oo card,submit,card,,loading,62,below,
+please long_press graph,long_press,graph,,,49,bottom_right,
+unpin search_box,unpin,search_box,,download,,right_edge,
+drcg phone_number,drag,phone_number,success,,,bottom_left,notification panel
+launch search_box,launch,search_box,,,4,farthest,
+long_press on icon,long_press,icon,disabled,email,14,second_last,chart view
+please check calendar,check,calendar,red,save,66,inside,modal
+삭제 입력,delete,input,success,,9,right_edge,
+drag tab,drag,tab,large,search,46,last_column,sidebar menu
+can you login progress_bar,login,progress_bar,,,47,inside,add button
+check popup,check,popup,red,filter,,first_column,
+삭제해 체크박스,delete,checkbox,,,57,last_column,profile icon
+can you login link,login,link,dark,,34,center,calendar view
+can you de1ete eropdown,delete,dropdown,,upload,,third,
+close on card,close,card,,previous,44,above,
+unpin checkbox,unpin,checkbox,success,edit,32,last_column,
+삭제 체크박스,delete,checkbox,,delete,39,nearest,cart icon
+close the checkbox,close,checkbox,highlighted,,,left_edge,search bar
+can you launch graph,launch,graph,strikethrough,,47,outside,
+caa you long_press chart,long_press,chart,green,edit,53,nearest,
+delete menu,delete,menu,,,,left_edge,modal
+close tab,close,tab,active,logout,38,center,
+delet messag0,delete,message,large,save,73,second_last,
+please unpin menu,unpin,menu,highlighted,,74,first_column,
+clpse notification,close,notification,dark,,,before,
+delet3 the calendar,delete,calendar,light,,34,farthest,
+lomin the icow,login,icon,success,cancel,95,after,
+please check dropdown,check,dropdown,success,settings,1,second,
+unpin message,unpin,message,large,,,right_edge,
+unpin menu,unpin,menu,bold,,51,second_row,table view
+can you submit text,submit,text,,add,30,last_column,audio player
+actually please unpin progress_bar,unpin,progress_bar,,upload,84,inside,
+login th3 dropdown,login,dropdown,dark,,41,farthest,
+acceit ico6,accept,icon,danger,,50,second_row,image gallery
+accept slider,accept,slider,,login,80,left,popup
+please delete message,delete,message,,,,right_edge,profile icon
+like can you long_press icon,long_press,icon,focused,home,9,nearest,
+check audio,check,audio,expanded,settings,86,next_to,
+please de leaf calendar,delete,calendar,italic,loading,,bottom_left,message field
+you know unpin notification,unpin,notification,small,search,94,second_row,
+check the card,check,card,,,36,second_last,
+accept lixk,accept,link,,share,74,right_edge,
+can you drag text,drag,text,,previous,85,below,
+like delete the slider,delete,slider,yellow,sort,,third,import button
+can you launch input,launch,input,underlined,email,,second_row,cart icon
+long_press the search_box,long_press,search_box,,settings,11,between,
+you know accept icon,accept,icon,,,65,above,cancel button
+delete the tab,delete,tab,yellow,loading,77,above,
+delete search_box,delete,search_box,,,61,before,
+unpin the slider,unpin,slider,collapsed,sort,5,lower_center,
+maybe delete switch,delete,switch,secondary,,30,last_column,
+delte ta9,delete,tab,focused,cancel,46,nearest,filter button
+launch graph,launch,graph,active,,,top_right,main content
+unpin progress_bar,unpin,progress_bar,red,next,50,next_to,
+actually close file,close,file,dark,,55,under,
+drag on password,drag,password,warning,add,72,bottom_left,
+can you paunch tab,launch,tab,focused,,45,right_edge,
+long_press the tab,long_press,tab,green,export,23,bottom_left,
+just accept the password,accept,password,,profile,81,left_edge,
+can you login message,login,message,danger,filter,35,bottom_right,sort button
+삭제 아이콘,delete,icon,underlined,search,,bottom_right,
+unnin the dialog,unpin,dialog,collapsed,message,,below,
+drag switch,drag,switch,light,error,,after,
+i think close the blue tab,close,tab,blue,,,above,
+please drag card,drag,card,,,,under,cancel button
+please submitt camera,submit,camera,active,empty,32,outside,notification panel
+can you accept checkbox,accept,checkbox,warning,,55,bottom_right,
+please accept gallery,accept,gallery,,,83,last_column,sidebar menu
+launch the slider that is bottom_left the upload button,launch,slider,,warning,55,bottom_left,upload button
+like submit the dropdown,submit,dropdown,large,filter,36,top_right,
+please launch table,launch,table,green,add,,below,
+please close image,close,image,warning,,87,before,
+please long_press icon,long_press,icon,yellow,submit,71,next_to,
+launch dropdown,launch,dropdown,blue,cancel,95,last,
+close the gallery,close,gallery,info,,12,top_right,audio player
+can you close table,close,table,info,,,next_to,
+close search_box,close,search_box,bold,export,,inside,
+maybe long_press dialog,long_press,dialog,focused,ok,37,left,
+삭제 audio,delete,audio,primary,,28,before,
+check phone_number,check,phone_number,large,logout,,second_last,export button
+can you unpin audio,unpin,audio,,delete,95,nearest,
+maybe check the file,check,file,success,remove,,first_column,sidebar menu
+launch dialog,launch,dialog,,retry,9,nearest,cancel button
+can you launch progress_bar,launch,progress_bar,red,error,20,second,card list
+can you launch search_box,launch,search_box,italic,share,83,farthest,menu button
+can you unpin password,unpin,password,italic,,37,second,
+login tue calezdar,login,calendar,secondary,,54,first_column,filter button
+maybe unpin tab,unpin,tab,highlighted,,0,next_to,
+maybe unpin progress_bar,unpin,progress_bar,light,home,10,second,
+unjin popup,unpin,popup,secondary,cancel,31,next_to,profile icon
+please close icon,close,icon,danger,refresh,91,farthest,
+just unpin dialog,unpin,dialog,secondary,password,4,bottom_right,
+accept calendar,accept,calendar,,loading,,inside,download button
+close slider,close,slider,small,sort,,last,
+launch slid3r,launch,slider,disabled,email,70,first_column,
+check 체크박스,check,checkbox,red,import,79,above,
+unpin the table,unpin,table,,export,27,farthest,header
+login on inpu7,login,input,,,92,outside,
+close graph,close,graph,small,settings,,farthest,popup
+please accept vialog,accept,dialog,highlighted,,,top_right,back button
+login popup,login,popup,blue,filter,98,inside,
+close the message,close,message,warning,,65,behind,password field
+please delete document,delete,document,expanded,,,in_front_of,
+dr@g the radio_button,drag,radio_button,light,ok,,first_row,
+close notificatiok,close,notification,,,1,first_row,profile icon
+accept the image,accept,image,secondary,import,,inside,calendar view
+doag the dialog,drag,dialog,light,email,38,farthest,
+launch @udio,launch,audio,primary,,76,between,
+pl3ase drag tab,drag,tab,,next,41,center,
+can you login chart,login,chart,focused,,73,above,
+just unpin the text,unpin,text,dark,,6,between,
+launch image,launch,image,bold,empty,94,first_column,
+can you unpin input,unpin,input,bold,,62,behind,refresh button
+please dr@g radio_button,drag,radio_button,,,43,last,
+subm1t the file,submit,file,disabled,ok,85,after,
+accept gn password,accept,password,,password,84,center,add button
+확인하세요 search_box,submit,search_box,,,67,left,
+drag on graph,drag,graph,underlined,,32,between,audio player
+maybe submit notification,submit,notification,,,28,last,card list
+close thc pcssword,close,password,highlighted,home,,third,map view
+delete phone_number,delete,phone_number,,export,73,right_edge,
+aacept thj camera,accept,camera,,,6,top_right,
+login card,login,card,,,20,right_edge,
+please login tab,login,tab,blue,message,38,before,image gallery
+c|ose the pas5word,close,password,,back,3,first_row,
+c@n you unpin calendar,unpin,calendar,primary,cancel,92,below,
+accept the gallery,accept,gallery,,,27,top_right,
+login thn menu,login,menu,,add,86,last_column,top navigation
+please accept popup,accept,popup,bold,profile,,after,address field
+please long_press radio_button,long_press,radio_button,,import,48,second,profile icon
+launch notificatioy,launch,notification,light,,1,in_front_of,home button
+close checkbox,close,checkbox,collapsed,cancel,39,before,
+please submit document,submit,document,,,69,center_right,message field
+drag the password,drag,password,small,info,92,center,
+close calendar,close,calendar,,,73,farthest,
+please accept icon,accept,icon,,logout,56,first_row,
+지우세요 notification,delete,notification,focused,,,second_last,
+accept the link,accept,link,green,,25,bottom_left,
+accept the menu,accept,menu,primary,ok,91,behind,
+long_pqess the radio_bubton,long_press,radio_button,disabled,profile,9,above,
+uh leaf popup,delete,popup,yellow,,25,below,cancel button
+just unpin audio,unpin,audio,secondary,,26,first_row,
+launch the document,launch,document,primary,,,third,
+accept 체크박스,accept,checkbox,,empty,49,second_row,address field
+long_press th3 popup,long_press,popup,strikethrough,,94,farthest,
+please login slider,login,slider,bold,password,56,first_row,
+launch password,launch,password,,,,lower_center,
+just accept on tab,accept,tab,,download,15,top_right,remove button
+launch phone_number,launch,phone_number,,export,65,second,
+pleave delte menu,delete,menu,light,previous,99,left_edge,calendar view
+actually launch card,launch,card,red,,11,left,
+please close search_box,close,search_box,highlighted,message,51,last,message field
+please unpin message,unpin,message,,,65,last,settings button
+long_press the progress_bar,long_press,progress_bar,blue,,10,center,
+drag on message,drag,message,italic,,21,center,
+long_press on phoni_number,long_press,phone_number,,,64,second_last,
+launch thd table,launch,table,,previous,,above,
+long_press menu,long_press,menu,danger,refresh,25,second_row,audio player
+login slider,login,slider,focused,submit,,below,
+summit notification,submit,notification,,logout,19,left,calendar view
+abcept link,accept,link,,,88,last_column,
+l@unch switch,launch,switch,,,67,behind,settings button
+long_press card,long_press,card,underlined,,,nearest,main content
+i think unpin progress_bar,unpin,progress_bar,,,28,outside,
+please login text,login,text,bold,,,behind,video player
+can you long_press progr3ss_bar,long_press,progress_bar,light,,,center_right,
+launch tab,launch,tab,,filter,,top_right,
+check the gallery,check,gallery,,,,center,modal
+delet the chart,delete,chart,,register,,last,
+unpin password right_edge submit button,unpin,password,,,69,right_edge,submit button
+확인하세요 text,submit,text,,upload,31,second,
+close the file,close,file,,register,45,bottom_right,
+제출 camera,submit,camera,,next,66,farthest,card list
+dr@g switch,drag,switch,secondary,search,49,first_column,download button
+delete the search_box,delete,search_box,success,export,65,top_right,home button
+actually long_press switch,long_press,switch,,,87,farthest,main content
+i think unpin table,unpin,table,dark,settings,,third,card list
+please long_press calendar,long_press,calendar,blue,,47,nearest,export button
+drag 0n file,drag,file,,,58,second_row,
+please login radio_button,login,radio_button,,,30,top_right,download button
+de1ete fi1e,delete,file,,,82,second_last,
+login table,login,table,,,21,center,search bar
+can you unpin notification,unpin,notification,,warning,51,first_column,search field
+삭제 card,delete,card,,,41,second_last,
+please check checkbox,check,checkbox,,,,left_edge,
+can you check camera,check,camera,red,,31,right_edge,
+uh leaf the camera,delete,camera,danger,,73,lower_center,
+launch th1 dropdown,launch,dropdown,,,85,last,
+can you accept link,accept,link,danger,cancel,,bottom_right,import button
+lau7ch the password,launch,password,,ok,,bottom_right,
+please long_press search_box,long_press,search_box,info,empty,39,inside,table view
+you know accept calendar,accept,calendar,highlighted,ok,12,in_front_of,
+can you summit documeut,submit,document,,,59,behind,
+can you submit file,submit,file,,add,18,outside,
+check the audio,check,audio,light,delete,4,below,
+you know login input,login,input,danger,,,center,
+please delete checkbox,delete,checkbox,yellow,previous,7,bottom_left,delete button
+actually delete message,delete,message,warning,home,,inside,
+close notification,close,notification,green,,,second_last,
+summit the document,submit,document,,,,farthest,
+please l0ng_press document,long_press,document,,logout,,left,
+close the notifica2ion,close,notification,underlined,password,51,center_right,popup
+please che9k calendar,check,calendar,,,76,left_edge,
+delete card,delete,card,focused,,,outside,main content
+can aou long_press message,long_press,message,,cancel,80,last,modal
+please deleet popup,delete,popup,small,search,,after,
+delete audio,delete,audio,,,27,second_row,
+please drag document,drag,document,,home,15,third,upload button
+can you check dab,check,tab,,ok,94,above,
+ltgin t8e image,login,image,,,,left_edge,
+check the message,check,message,,alert,83,farthest,edit button
+c@n you long_pr3ss notification,long_press,notification,,,1,last_column,dialog box
+please de leaf notification,delete,notification,,,30,first_column,
+just long_press tab,long_press,tab,primary,edit,25,after,modal
+just submit the camera,submit,camera,,address,83,left_edge,
+unpin table,unpin,table,,info,64,left_edge,password field
+please login chart,login,chart,,edit,,farthest,
+long_pr3ss the dropdown,long_press,dropdown,,,73,in_front_of,
+launch on dialog,launch,dialog,,,27,lower_center,delete button
+3an you check search_box,check,search_box,primary,,62,next_to,search bar
+please delete progress_bar,delete,progress_bar,,edit,32,farthest,header
+long_press 아이콘,long_press,icon,,share,29,inside,upload button
+cweck notification,check,notification,highlighted,,,before,
+please check graph,check,graph,,,,between,
+drag graph,drag,graph,large,error,20,nearest,password field
+can you close slider,close,slider,,import,38,second,password field
+dran checkbox,drag,checkbox,highlighted,,19,outside,
+can you unpin link,unpin,link,,,72,next_to,sort button
+submit file,submit,file,yellow,,,bottom_left,
+unpin calendar,unpin,calendar,small,previous,92,second_last,sort button
+can you drag switch,drag,switch,,share,64,right_edge,
+subm1t text,submit,text,,,39,outside,
+please unpin card,unpin,card,,message,60,third,sort button
+de1ete menu,delete,menu,secondary,,6,right_edge,
+login 5n progress_bar,login,progress_bar,,,11,next_to,password field
+can you check im@ge,check,image,underlined,,54,under,filter button
+unpin tbe notification,unpin,notification,bold,notification,96,bottom_right,submit button
+delete the dropdown,delete,dropdown,success,,30,center_right,phone field
+pleyse doag calendar,drag,calendar,strikethrough,,98,left_edge,
+삭제 gallery,delete,gallery,,,,below,
+close the card,close,card,highlighted,login,,below,email field
+accept imag3,accept,image,focused,,98,under,search bar
+acjept search_box,accept,search_box,underlined,next,,bottom_right,
+c|ose remove,close,image,,remove,63,left,
+accept progress_bar,accept,progress_bar,,,73,nearest,
+dbag camera,drag,camera,small,download,77,second_last,
+drag isage,drag,image,,,46,last,delete button
+please long_press menu,long_press,menu,,,91,below,
+unuin the radio0button,unpin,radio_button,small,empty,24,bottom_right,popup
+i think can you check search_box,check,search_box,,,,between,
+accept the checkbox,accept,checkbox,small,save,72,under,
+i think can you login graph,login,graph,,edit,60,next_to,share button
+ch6ck gallery,check,gallery,,,40,center_right,menu button
+submi7 the search_box,submit,search_box,secondary,remove,,before,
+please 6ogin notification,login,notification,red,,95,second_row,
+drqg the file,drag,file,,,25,farthest,
+please unpin chart,unpin,chart,,add,,last,
+maybe drag notification,drag,notification,secondary,edit,46,outside,
+can you accept radio_button,accept,radio_button,highlighted,,7,between,
+can you close dropdown,close,dropdown,danger,remove,67,after,popup
+delete the phone_number,delete,phone_number,,,98,above,chart view
+login on card,login,card,dark,next,,second_last,
+summit text,submit,text,collapsed,email,,above,
+unpin the slid3r,unpin,slider,,,2,center_right,
+can you long_press radio_button,long_press,radio_button,italic,,84,center,
+check the menu,check,menu,highlighted,,58,last,
+please drag image,drag,image,yellow,phone,36,bottom_left,
+delete slider,delete,slider,small,address,,first_row,settings button
+drug slider,drag,slider,small,refresh,84,left,
+unpin gallery,unpin,gallery,large,settings,80,second_last,
+please unpin phone_number,unpin,phone_number,bold,,72,last_column,
+unpin the calendar,unpin,calendar,dark,,15,under,table view
+launch notification,launch,notification,light,,51,second_row,
+close on search_box,close,search_box,,confirm,54,below,
+c7ose phone_number,close,phone_number,,save,7,first_column,video player
+submitt the cars,submit,card,,delete,30,below,
+actually check the camera,check,camera,underlined,,,after,
+like drag radio_button,drag,radio_button,collapsed,refresh,97,center,edit button
+ackept table,accept,table,info,,83,bottom_right,
+pleas3 unpin search_box,unpin,search_box,,message,0,nearest,
+just delete image,delete,image,,,61,last_column,email field
+check message,check,message,active,,6,last_column,save button
+you know delete the calendar,delete,calendar,warning,password,,next_to,calendar view
+please drag checkbox,drag,checkbox,yellow,,55,last,
+지우세요 link,delete,link,collapsed,,20,second_last,main content
+long_press search_box,long_press,search_box,italic,,83,next_to,map view
+can you check chart,check,chart,,import,73,outside,
+long_press the sw5tch,long_press,switch,italic,retry,36,second_last,video player
+can you check popup,check,popup,success,search,32,second,refresh button
+accept document,accept,document,bold,,,bottom_right,edit button
+can you long_press icon,long_press,icon,strikethrough,save,42,after,
+losin the docjment,login,document,,,,behind,
+you know check the phone_number,check,phone_number,strikethrough,,,first_column,sidebar menu
+de1ete progr5ss_bar,delete,progress_bar,,delete,8,last,import button
+6lose notification,close,notification,small,,66,lower_center,image gallery
+close progress_bar,close,progress_bar,,export,63,second_row,refresh button
+login on dialog,login,dialog,red,,90,above,
+close card,close,card,,previous,,before,
+submi7 ihe notification,submit,notification,bold,,74,bottom_right,
+please drag t@b,drag,tab,focused,delete,67,nearest,
+please check notification,check,notification,,,74,outside,upload button
+check on slider,check,slider,,,,last,
+loqin file,login,file,green,home,17,center,
+actually can you login file,login,file,,submit,,farthest,
+please login card,login,card,primary,,0,next_to,
+제출 radio_button,submit,radio_button,secondary,,,nearest,
+you know close message,close,message,highlighted,,22,outside,sort button
+login the primary image,login,image,primary,,84,first_column,
+maybe launch the document,launch,document,,logout,12,second,
+djag the calendar,drag,calendar,warning,save,,first_row,
+check the popup,check,popup,,error,36,second_last,header
+pl4ase delet prozress_bar,delete,progress_bar,warning,,85,under,
+can you accept message,accept,message,,,53,center_right,
+like long_press the switch,long_press,switch,light,,,second_row,
+accept menu,accept,menu,,,27,first_row,profile icon
+please check text,check,text,,loading,62,in_front_of,popup
+launch text,launch,text,disabled,,88,behind,
+login search_box,login,search_box,,previous,69,inside,home button
+please login image,login,image,red,back,,farthest,
+please delete text,delete,text,,,,right_edge,
+accept p@ssword,accept,password,small,save,74,below,home button
+please submit camera,submit,camera,dark,,,next_to,delete button
+launch the switch,launch,switch,expanded,,25,second_last,
+maybe please delete slider,delete,slider,red,,,above,phone field
+제출 text,submit,text,,import,,top_right,
+launch 입력,launch,input,,loading,,left_edge,search bar
+please accept text,accept,text,dark,phone,,lower_center,
+accemt the message,accept,message,green,message,10,before,
+accept chart left map view,accept,chart,italic,,90,left,map view
+maybe drag slider,drag,slider,,back,,second_last,
+can you submit radio_button,submit,radio_button,,,56,second,
+submit the document,submit,document,dark,,54,after,
+ple@se long_press icon,long_press,icon,,login,76,after,notification panel
+can you unpin dialog,unpin,dialog,,import,21,last,
+unpin on icon,unpin,icon,,,,second,
+unpin 아이콘,unpin,icon,green,,80,after,
+plbase check notification,check,notification,yellow,,16,center,password field
+please launch chayt,launch,chart,,,10,lower_center,video player
+i think please launch password,launch,password,info,cancel,48,bottom_right,cancel button
+you know launch the link,launch,link,,,48,behind,refresh button
+close the link,close,link,underlined,settings,34,left,
+just drag the search_box,drag,search_box,dark,,20,left,
+drag the slider,drag,slider,danger,,27,center,
+like please login audio,login,audio,warning,,,third,card list
+lo5g_press messa8e,long_press,message,,info,63,second,
+accept camera,accept,camera,collapsed,ok,8,bottom_right,remove button
+please drag slider,drag,slider,,,21,second,
+전송 file,submit,file,active,,,above,profile icon
+like please delete password,delete,password,green,success,,center,home button
+please check pmpup,check,popup,,,57,bottom_left,home button
+지우세요 document,delete,document,,,42,last_column,table view
+delete the popup,delete,popup,,,8,last_column,modal
+삭제해 message,delete,message,,filter,,outside,
+long_press tie table,long_press,table,collapsed,delete,72,after,
+can you srag diflog,drag,dialog,,confirm,28,between,
+submit on card,submit,card,info,loading,,top_right,
+eccept the imput,accept,input,highlighted,info,28,lower_center,
+unpin im@ge,unpin,image,strikethrough,,,last,save button
+close the dropdown,close,dropdown,red,,63,in_front_of,
+uh leaf radio_button,delete,radio_button,highlighted,ok,23,in_front_of,notification panel
+please login notification,login,notification,,,,right_edge,filter button
+maybe please long_press card,long_press,card,,,,first_row,
+확인하세요 radio_button,submit,radio_button,,upload,38,outside,search field
+pl3ase check slider,check,slider,,,52,lower_center,
+please check 6rogress_bar,check,progress_bar,secondary,address,41,bottom_right,password field
+loain the 7ropdown,login,dropdown,,settings,,above,
+unpin link,unpin,link,,settings,59,center,popup
+can you drag graph,drag,graph,small,cancel,,left_edge,sidebar menu
+can yju launch audio,launch,audio,,,74,farthest,
+long_press calendur,long_press,calendar,danger,notification,8,between,
+please accept link,accept,link,,,11,nearest,table view
+pl2ase launch progress_bar,launch,progress_bar,collapsed,,,center,
+uh leaf calendar,delete,calendar,large,add,0,first_column,import button
+unpin on search_box,unpin,search_box,,address,,behind,search field
+delete radio_button,delete,radio_button,,,,right_edge,
+close graoh,close,graph,light,filter,,right_edge,
+check on popup,check,popup,disabled,cancel,21,second,
+subm1t notification,submit,notification,warning,,,bottom_left,import button
+can you delete input,delete,input,focused,error,74,second,
+long_press submit,long_press,menu,,submit,51,after,
+long_press the small camera,long_press,camera,small,,17,outside,
+delete the graph,delete,graph,active,,77,farthest,notification panel
+launch the password,launch,password,,,29,first_column,main content
+de leaf dropdown,delete,dropdown,,,97,last_column,main content
+launch the grap7,launch,graph,,share,94,last,
+please drag password,drag,password,danger,share,58,nearest,
+unpin camera,unpin,camera,info,,86,left,
+sccept radio_bxtton,accept,radio_button,collapsed,,,last_column,
+drag file,drag,file,active,import,20,top_right,
+long_press the image,long_press,image,active,notification,,after,submit button
+delte the card,delete,card,,,17,first_row,download button
+drag chart,drag,chart,,,,farthest,
+long_press the pagsword,long_press,password,,,90,top_right,
+alease accept graph,accept,graph,expanded,,19,below,
+launch table,launch,table,,info,0,second_last,
+drag the icon,drag,icon,green,,86,above,
+close chart,close,chart,focused,cancel,46,last_column,remove button
+please long_press phone_number,long_press,phone_number,collapsed,,,below,settings button
+chkck the documemt,check,document,strikethrough,,43,next_to,
+지우세요 camera,delete,camera,,,86,right_edge,
+login on calendar,login,calendar,,,,first_column,
+drag the popup,drag,popup,light,,86,before,
+can you check ranio_button,check,radio_button,red,save,54,center,
+login menu,login,menu,dark,,55,second_last,footer
+check phe icon,check,icon,,,67,second,
+please delete icon,delete,icon,,register,21,above,
+like unpin graph,unpin,graph,,,11,inside,
+please unpin search_box,unpin,search_box,,,24,outside,
+please launch search_box,launch,search_box,light,,85,left,
+adcept tme checkbox,accept,checkbox,,,,second_row,
+uh leaf the gallery,delete,gallery,underlined,,,last_column,
+please login gallery,login,gallery,red,previous,32,last_column,
+like can you launch message,launch,message,,sort,0,second,
+삭제해 table,delete,table,,login,,between,save button
+delte lard,delete,card,,settings,,center_right,
+i think long_press checkbox,long_press,checkbox,primary,,2,nearest,
+aaunch the phone_nuqber,launch,phone_number,focused,,,bottom_left,filter button
+long_press the file,long_press,file,,,,left,
+login the image,login,image,secondary,,75,second,
+like launch the camera,launch,camera,disabled,remove,96,before,
+c1o5e the checkbox,close,checkbox,,,,after,export button
+check chart,check,chart,large,add,38,above,
+drag link,drag,link,,,68,next_to,
+check the search_box,check,search_box,,previous,15,second_last,video player
+you know close tab,close,tab,,phone,19,after,home button
+launch 체크박스,launch,checkbox,,import,,lower_center,
+acce2t the text,accept,text,large,notification,88,second_last,sidebar menu
+please submi7 camera,submit,camera,small,,63,left_edge,filter button
+launch th0 table,launch,table,active,settings,,nearest,
+summit radio_bmtton,submit,radio_button,,,19,first_column,
+can you login camera,login,camera,dark,,38,bottom_right,audio player
+can you drag dialog,drag,dialog,primary,,59,top_right,add button
+actually drag link,drag,link,,,10,second,header
+제출 card,submit,card,info,info,,below,audio player
+login the chart,login,chart,italic,add,72,before,
+clese wrogress_bar,close,progress_bar,dark,,,below,
+like delete the graph,delete,graph,,,7,second,
+erag the tab,drag,tab,blue,,,right_edge,add button
+accept the dialog,accept,dialog,bold,,,in_front_of,
+i think submit camera,submit,camera,large,,37,top_right,export button
+지우세요 radio_button,delete,radio_button,light,,85,left,sidebar menu
+check the tab,check,tab,,,98,left,
+please accept progress_bar,accept,progress_bar,info,phone,53,first_row,
+can you check slider,check,slider,italic,,83,nearest,dialog box
+close the progress_bar,close,progress_bar,red,loading,60,bottom_right,
+ple@se drag t@ble,drag,table,disabled,,69,left,
+long_press the card,long_press,card,green,home,,second_last,
+you know please check checkbox,check,checkbox,,,71,after,
+long_press dropdown second_row password field,long_press,dropdown,,retry,90,second_row,password field
+unpin on popup,unpin,popup,info,next,,bottom_left,edit button
+launch the progress_bar,launch,progress_bar,,,,bottom_left,
+long_press document,long_press,document,,save,18,behind,main content
+login 입력,login,input,,,24,behind,search bar
+please drag dropdown,drag,dropdown,green,,8,right_edge,
+login image,login,image,,,58,first_column,refresh button
+just please login file,login,file,,empty,,left,
+please long_press message,long_press,message,warning,,21,last,filter button
+de leaf switch,delete,switch,,notification,,nearest,header
+ch8ck on tab,check,tab,secondary,,79,lower_center,
+can you check tab,check,tab,small,edit,,behind,phone field
+uh leaf the file,delete,file,,message,,between,
+close 아이콘,close,icon,,,24,bottom_left,
+please dral dialog,drag,dialog,dark,,76,between,search bar
+submitt the camera,submit,camera,highlighted,,15,first_row,refresh button
+please c1o5e audio,close,audio,,,50,bottom_right,
+c1o5e card,close,card,dark,login,73,right_edge,export button
+지우세요 체크박스,delete,checkbox,italic,login,0,second,
+accepm o9 dialog,accept,dialog,,,0,bottom_right,
+please submit notification,submit,notification,,,73,in_front_of,
+submit card,submit,card,secondary,filter,42,in_front_of,search bar
+long_press the audio,long_press,audio,dark,,99,before,delete button
+can you launch menu,launch,menu,dark,,73,behind,
+login 체크박스,login,checkbox,info,,,second_row,
+삭제 table,delete,table,,ok,94,farthest,
+long_press the link,long_press,link,italic,profile,,below,calendar view
+can you launch text,launch,text,collapsed,,12,first_row,
+delete file,delete,file,italic,success,,under,
+just login the image,login,image,,,89,left,
+accept the radio0button,accept,radio_button,success,,,next_to,
+like check file,check,file,focused,empty,88,between,image gallery
+drag the dropdopn,drag,dropdown,light,ok,,between,
+accept the tab,accept,tab,,cancel,,before,
+check on image,check,image,expanded,,,left_edge,
+login noxification,login,notification,red,,66,right_edge,
+please unpin icon,unpin,icon,disabled,,88,second_last,add button
+i think long_press the password,long_press,password,green,search,,last,home button
+can you check documen7,check,document,,,,inside,password field
+i think please check camera,check,camera,info,,41,farthest,
+please launch chart,launch,chart,yellow,remove,27,inside,
+please clo5e menu,close,menu,large,search,74,under,cart icon
+submit document,submit,document,,message,,farthest,
+long_press on chart,long_press,chart,,delete,68,right_edge,share button
+long_press chart,long_press,chart,green,,17,under,popup
+lngin the dialog,login,dialog,red,,,farthest,edit button
+accept on calendar,accept,calendar,strikethrough,import,,right_edge,address field
+delete the message,delete,message,,,30,inside,
+accept t1e slider that is labt nhe search b8r,accept,slider,italic,,,last,search bar
+please accept password,accept,password,small,address,,above,
+close the document,close,document,underlined,search,,next_to,
+delte the chart,delete,chart,,info,33,above,chart view
+can you check icon,check,icon,green,logout,84,bottom_left,notification panel
+제출 file,submit,file,,,62,right_edge,
+please accept document,accept,document,,previous,,second_last,
+accept the inpu7,accept,input,italic,previous,73,last_column,
+maybe please submit camera,submit,camera,,back,23,center,
+삭제 progress_bar,delete,progress_bar,,home,,center,
+chnck on popup,check,popup,danger,phone,85,left,
+just close the image,close,image,secondary,email,81,after,
+submi7 the file,submit,file,,retry,,inside,message field
+like delete notification,delete,notification,small,alert,72,bottom_left,video player
+lo5g_press dropdown,long_press,dropdown,light,logout,2,bottom_right,
+actually delete radio_button,delete,radio_button,focused,,,after,audio player
+close the text,close,text,,,46,bottom_left,
+uh leaf gallery,delete,gallery,strikethrough,,,bottom_right,download button
+maybe drag on image,drag,image,small,,51,bottom_right,cart icon
+check the password,check,password,warning,submit,68,left,sidebar menu
+지우세요 아이콘,delete,icon,info,,74,center,
+deleet popup,delete,popup,active,edit,15,before,
+login slader,login,slider,,,75,second,popup
+please de leaf menu,delete,menu,light,confirm,,after,save button
+please login phone_number,login,phone_number,success,,8,bottom_right,
+check zhe nile,check,file,,loading,,outside,table view
+please accept tab,accept,tab,focused,,90,farthest,
+clo5e the m3nu,close,menu,active,,,left,
+loig_press the audio,long_press,audio,,,7,behind,
+login tae document,login,document,large,,51,first_column,header
+like delete password,delete,password,,,51,under,save button
+check the progress_bar,check,progress_bar,bold,settings,,first_row,
+like submit card,submit,card,,back,,lower_center,
+unpin the popup,unpin,popup,underlined,,8,first_column,
+summit searqh_box,submit,search_box,,import,2,first_column,
+delete on graph,delete,graph,strikethrough,,,left_edge,
+drag the chart,drag,chart,bold,,,bottom_left,
+maybe launch tab,launch,tab,collapsed,,,behind,modal
+login switch,login,switch,,,,right_edge,
+1rag tfe phone_number,drag,phone_number,,,,second_row,
+please launch link,launch,link,italic,download,47,above,
+drag icon,drag,icon,,empty,44,before,password field
+accept tab,accept,tab,,,,farthest,
+check the 4hart,check,chart,red,,,bottom_right,
+삭제 image,delete,image,large,,,next_to,
+can cou close image,close,image,focused,email,89,center_right,remove button
+close dialog,close,dialog,primary,,,left,profile icon
+launch chart,launch,chart,disabled,warning,,nearest,
+unpin dropdown,unpin,dropdown,success,address,10,behind,
+can you l@unch menu,launch,menu,danger,,,center_right,
+clos8 the camera,close,camera,secondary,,87,left_edge,
+please launch message,launch,message,primary,,31,last_column,sort button
+logio notification,login,notification,,,28,last,
+login iczn,login,icon,,,20,first_column,
+actually unpin popup,unpin,popup,info,notification,,farthest,sidebar menu
+please laknch potup,launch,popup,warning,,73,bottom_right,filter button
+like launch card,launch,card,,email,44,inside,
+delete the notification,delete,notification,secondary,,78,bottom_left,
+maybe close radio_button,close,radio_button,,,,lower_center,main content
+long_press audio top_right popup,long_press,audio,yellow,cancel,78,top_right,popup
+launch the checkbox,launch,checkbox,,retry,4,third,
+taunch on 1lider,launch,slider,active,upload,39,between,
+login the camera,login,camera,light,upload,63,before,
+long_press calendar,long_press,calendar,blue,,,right_edge,
+c|ose progress_bar,close,progress_bar,bold,,,bottom_right,modal
+삭제 tab,delete,tab,,,,behind,
+unpin audio,unpin,audio,green,,43,second_row,
+you know long_press switch,long_press,switch,strikethrough,,55,inside,
+a7cept the dropdown,accept,dropdown,,,,after,
+can you launch link,launch,link,,profile,2,bottom_right,
+accept cahd,accept,card,green,back,71,second_row,
+please c|ose calendar,close,calendar,,,99,first_column,password field
+지우세요 tab,delete,tab,,import,48,first_column,
+just launch the menu,launch,menu,highlighted,,48,left,password field
+please unpin camera,unpin,camera,,,6,lower_center,
+lhunch the table,launch,table,yellow,,,left_edge,
+ca0 bou summit notificatisn,submit,notification,red,,,after,audio player
+accept th3 card,accept,card,expanded,login,88,nearest,
+can you accept calendar,accept,calendar,,,,farthest,add button
+actually please check notification,check,notification,info,,,center_right,
+drag thv documenj,drag,document,,,,last_column,dialog box
+submi7 documenw,submit,document,underlined,alert,,farthest,
+summit the dropdowu,submit,dropdown,primary,,,first_column,delete button
+long_press tab,long_press,tab,disabled,cancel,,top_right,
+please delete image,delete,image,,submit,51,after,
+can you unpin switch,unpin,switch,highlighted,retry,15,bottom_left,export button
+삭제해 camera,delete,camera,active,cancel,,bottom_right,
+like delete calendar,delete,calendar,secondary,previous,,center,sidebar menu
+please login switch,login,switch,,login,,left_edge,search bar
+submit camera,submit,camera,expanded,,31,lower_center,
+just please close dropdown,close,dropdown,active,alert,39,nearest,upload button
+long_press the success chart,long_press,chart,success,home,39,farthest,
+actually submit radio_button,submit,radio_button,,phone,,nearest,
+삭제해 switch,delete,switch,,,35,between,top navigation
+close popup,close,popup,disabled,phone,11,center,main content
+maybe please check file,check,file,,,,left,
+login link,login,link,large,notification,76,inside,phone field
+close the camera,close,camera,warning,,,bottom_right,
+can you delete graph,delete,graph,bold,download,18,right_edge,
+summit file,submit,file,,filter,27,bottom_right,
+long_press the chart,long_press,chart,green,,4,left,email field
+ulpin ic0n,unpin,icon,,info,,first_row,submit button
+maybe please check phone_number,check,phone_number,expanded,,9,next_to,phone field
+launch the graph,launch,graph,,,76,above,
+like please check radio_button,check,radio_button,red,,27,after,
+i think long_press disabled switch,long_press,switch,disabled,,84,last_column,
+can you unpin search_box,unpin,search_box,small,,56,center,
+can you accept switch,accept,switch,bold,,28,farthest,sidebar menu
+like unpin the chart,unpin,chart,bold,notification,,second,popup
+launch 1he dropdown,launch,dropdown,italic,cancel,,top_right,
+like accept chart,accept,chart,danger,,,after,chart view
+please check password,check,password,,,,right_edge,card list
+delete calendar,delete,calendar,,info,48,behind,password field
+can you launch switch,launch,switch,expanded,,,right_edge,
+please c|ose image,close,image,warning,alert,84,last_column,profile icon
+삭제 slider,delete,slider,red,loading,,inside,
+accept file,accept,file,italic,next,99,bottom_left,
+launch thf table,launch,table,,confirm,,under,
+please long_rress sliqer,long_press,slider,dark,,26,second,message field
+chxck gallery,check,gallery,large,back,50,first_row,
+drag the link,drag,link,,settings,42,center_right,download button
+login the link,login,link,,,98,left_edge,
+delete password,delete,password,,,84,next_to,password field
+can you drag password,drag,password,,remove,,last_column,cart icon
+you know unpin checkbox,unpin,checkbox,active,next,14,left_edge,card list
+just drag the menu,drag,menu,red,,24,second_last,
+please check chart,check,chart,,,48,under,
+please close switch,close,switch,,,93,last_column,
+drag the progress_bar,drag,progress_bar,blue,delete,5,second_last,
+1ogin on gallery,login,gallery,expanded,,,below,download button
+close icon,close,icon,,,70,center_right,delete button
+submit the search_box,submit,search_box,,,69,bottom_left,
+submitt doopdown,submit,dropdown,large,,,nearest,filter button
+login text,login,text,strikethrough,,98,next_to,
+drag radio_button,drag,radio_button,,previous,16,second_row,
+삭제해 dialog,delete,dialog,underlined,home,82,in_front_of,table view
+actually accept popup,accept,popup,,share,,second_last,search bar
+unpin on password,unpin,password,,,21,center,message field
+can you delete document,delete,document,small,settings,3,second_row,
+unpin expanded slider,unpin,slider,expanded,delete,,next_to,
+actually accept icon,accept,icon,light,,,first_column,
+please check radio_button,check,radio_button,expanded,,74,center,
+accept the blue checkbox,accept,checkbox,blue,submit,5,behind,
+accept icon,accept,icon,,,,last_column,
+please launch gallery,launch,gallery,bold,message,,next_to,
+can you submi7 drovdown,submit,dropdown,,,,right_edge,map view
+actually please unpin switch,unpin,switch,,,92,inside,search field
+l@unch on popup,launch,popup,,warning,29,between,
+can you launch dialog,launch,dialog,,,,lower_center,
+just launch password,launch,password,red,edit,99,bottom_right,
+please drag dicument,drag,document,,,96,center_right,
+can you unpin radio_button,unpin,radio_button,italic,,55,second_row,remove button
+please launch document,launch,document,disabled,,37,center,
+please accept calendar,accept,calendar,dark,,,after,
+delete the text,delete,text,,filter,48,between,
+please unpin notification,unpin,notification,blue,password,59,inside,search field
+login thx password,login,password,,register,51,behind,
+1ogin chart,login,chart,info,,68,nearest,profile icon
+long_press camera,long_press,camera,info,remove,86,last_column,message field
+dr3g switch,drag,switch,small,password,61,next_to,
+you know delete input,delete,input,,refresh,18,after,profile icon
+please close link,close,link,,email,20,second,
+login file,login,file,collapsed,refresh,8,center,
+uh leaf dropdown,delete,dropdown,,address,60,inside,sort button
+long_press text,long_press,text,,,86,left_edge,
+c1o5e dialog,close,dialog,,,,after,
+drag audio,drag,audio,,,38,below,
+please long_press notification,long_press,notification,large,email,2,in_front_of,
+accipt the text,accept,text,,error,23,left_edge,home button
+delete dialog,delete,dialog,disabled,,93,outside,
+launch the message,launch,message,,,77,after,
+you know can you accept gallery,accept,gallery,strikethrough,phone,29,outside,export button
+launch radio_button,launch,radio_button,bold,,60,before,
+can you delete search_box,delete,search_box,warning,,42,bottom_left,email field
+can you close notification,close,notification,highlighted,,,last_column,
+please check progress_bar,check,progress_bar,italic,,65,second_row,address field
+delete table,delete,table,,ok,,behind,main content
+long_press the table,long_press,table,danger,,89,between,
+please close gallery,close,gallery,active,address,60,right_edge,
+submitt the text,submit,text,,retry,43,center_right,
+can you login audio,login,audio,strikethrough,message,85,right_edge,
+just drag gallery,drag,gallery,,logout,,last_column,video player
+longlpress xotification,long_press,notification,,,73,farthest,
+확인하세요 dropdown,submit,dropdown,dark,,97,center,
+unpin the password,unpin,password,,,47,behind,
+cl9se 6he gallery,close,gallery,highlighted,,9,left,
+please launch image,launch,image,,,,lower_center,modal
+close input,close,input,,password,95,left_edge,footer
+전송 card,submit,card,light,success,,bottom_left,
+지우세요 chart,delete,chart,italic,,65,left,top navigation
+check tmxt,check,text,,,96,before,import button
+hrag calendar,drag,calendar,,,23,above,sidebar menu
+deleet search_box,delete,search_box,underlined,,80,behind,
+close table,close,table,red,edit,,farthest,
+can you long_press chart,long_press,chart,disabled,,25,second_last,map view
+please drag gallery,drag,gallery,expanded,,31,farthest,
+launch the radio_button,launch,radio_button,info,,48,center_right,
+drag the search_box,drag,search_box,focused,,24,above,
+i think submit the radio_button,submit,radio_button,yellow,,18,third,
+i think can you launch graph,launch,graph,highlighted,,46,last,
+zheck radio_button,check,radio_button,strikethrough,,14,left_edge,
+maybe please accept dropdown,accept,dropdown,,,,outside,
+delete th3 text,delete,text,bold,,22,below,dialog box
+actually launch menu,launch,menu,underlined,logout,71,next_to,search field
+drag the graph,drag,graph,underlined,,6,between,search bar
+long_press t4e text,long_press,text,focused,profile,4,center_right,
+accept on audio,accept,audio,active,,,second_row,
+can you unpin slider,unpin,slider,blue,,1,second,
+please long_press documgnt,long_press,document,light,,92,in_front_of,
+check dial0g,check,dialog,success,notification,9,left,phone field
+please login link,login,link,,add,5,above,
+please unpin table,unpin,table,,edit,88,first_column,header
+can you lojin image,login,image,info,,41,under,
+ca0 you close gudio,close,audio,disabled,,29,third,top navigation
+launch switch,launch,switch,primary,,3,first_row,dialog box
+please accept camera,accept,camera,,error,20,bottom_right,
+please close chart,close,chart,,phone,82,below,
+actually submit file,submit,file,large,,72,behind,table view
+login message,login,message,collapsed,,12,in_front_of,
+please close message,close,message,active,notification,,bottom_right,
+can you long_press phone_number,long_press,phone_number,,,11,outside,
+can you long_press checkbox,long_press,checkbox,green,warning,93,outside,
+check tn menu,check,menu,warning,,86,before,
+delete the checkbox,delete,checkbox,,save,,under,table view
+de1ete imaga,delete,image,,home,68,second_last,main content
+unpin on calendar,unpin,calendar,primary,export,,farthest,
+de1ete the camera,delete,camera,,phone,62,last,audio player
+check the slider,check,slider,,,,behind,
+cln yof vheck audio,check,audio,blue,,35,before,
+subm1t t2e file,submit,file,primary,alert,73,inside,
+abcept phone_number,accept,phone_number,collapsed,cancel,23,last,
+can you check table,check,table,dark,add,,top_right,
+can you check notification,check,notification,italic,alert,,behind,
+c1o5e password,close,password,expanded,,28,lower_center,
+unpim th7 csllapsed mard,unpin,card,collapsed,retry,48,left_edge,
+drag on dialog,drag,dialog,collapsed,save,,before,dialog box
+long_press on slider,long_press,slider,,,25,second_last,
+subm1t fili,submit,file,info,,59,next_to,cancel button
+unpin the red file,unpin,file,red,settings,39,left_edge,
+you know long_press notification,long_press,notification,underlined,success,2,before,
+close the slider,close,slider,bold,,,first_row,
+please accept switch,accept,switch,blue,warning,76,center,download button
+close the chart,close,chart,collapsed,,18,left,
+delete chart,delete,chart,,,82,nearest,
+accept on card,accept,card,dark,message,70,inside,
+you know accept the document,accept,document,,,90,last_column,
+maybe login menu,login,menu,,delete,96,bottom_right,
+launch calendar,launch,calendar,,empty,,first_column,chart view
+you know login slider,login,slider,,,,outside,
+unpin phone_number,unpin,phone_number,danger,save,,second_last,
+maybe please launch chart,launch,chart,disabled,,7,before,export button
+login the dropdown,login,dropdown,focused,,37,lower_center,
+can you launch popup,launch,popup,,,,last_column,menu button
+drag popup,drag,popup,disabled,,56,last,download button
+like drag the popup,drag,popup,yellow,,0,behind,
+submit text,submit,text,disabled,error,,top_right,share button
+can you login dialog,login,dialog,dark,loading,,next_to,
+drag dropdown,drag,dropdown,,sort,91,last_column,
+like check notification,check,notification,blue,submit,29,farthest,search field
+delete text,delete,text,,,72,center,main content
+can you close text,close,text,danger,message,86,bottom_left,notification panel
+can you launch table,launch,table,,,52,second_last,
+삭제 camera,delete,camera,primary,,72,bottom_right,phone field
+pleate long_press table,long_press,table,yellow,address,16,left,
+delte chart,delete,chart,,,43,second_row,
+delet link,delete,link,bold,,53,second,
+actually unpin the notification,unpin,notification,strikethrough,add,,lower_center,
+please long_press chart,long_press,chart,success,back,40,farthest,
+long_press the light search_box,long_press,search_box,light,ok,42,between,
+close the duopdown,close,dropdown,bold,,22,first_column,table view
+l0gin the dialog,login,dialog,italic,,,below,delete button
+plea5e accept audio,accept,audio,strikethrough,error,49,lower_center,
+submi7 the d8opdown,submit,dropdown,,import,58,left,
+pyease logi2 document,login,document,expanded,search,59,below,notification panel
+deleet gallery,delete,gallery,primary,,97,outside,home button
+submit the notification,submit,notification,success,,,under,email field
+actually close the text,close,text,,,80,next_to,popup
+accept notification,accept,notification,,,98,second,settings button
+accept the search_box,accept,search_box,danger,message,41,after,
+please launch icon,launch,icon,highlighted,password,95,bottom_left,
+you know drag the card,drag,card,,cancel,98,left,
+ple@se c|ose document,close,document,,,7,third,main content
+long_press ga1lery,long_press,gallery,,upload,46,center,top navigation
+delete input,delete,input,large,share,2,next_to,modal
+long_press inp0t,long_press,input,underlined,share,83,nearest,
+launch on link,launch,link,bold,submit,81,top_right,
+long_press the checkbox,long_press,checkbox,italic,notification,,next_to,video player
+please unpin text,unpin,text,,previous,22,lower_center,upload button
+지우세요 password,delete,password,blue,,,between,
+check the link,check,link,,,15,between,
+delte the dropdowj,delete,dropdown,bold,retry,43,center,
+please unpin slider,unpin,slider,primary,,70,farthest,
+전송 document,submit,document,highlighted,save,,behind,filter button
+5ubmit dropdown,submit,dropdown,bold,profile,,before,
+maybe drag icon,drag,icon,,,,first_column,
+submitt the radio_button,submit,radio_button,,,13,left,
+check the galliry,check,gallery,highlighted,warning,,in_front_of,audio player
+3ogin the message,login,message,expanded,,,center_right,sort button
+c@n you check popup,check,popup,,,74,behind,
+accept the password,accept,password,,add,35,left_edge,
+i think close the message,close,message,disabled,,13,inside,
+login success,login,audio,,success,,under,
+delet the p7pup,delete,popup,secondary,,65,under,home button
+accept dialog,accept,dialog,focused,upload,27,next_to,
+accept the icon,accept,icon,bold,,20,bottom_right,message field
+check iudio,check,audio,underlined,,16,bottom_left,
+please accept inpu7,accept,input,,edit,,between,
+maybe drag the card,drag,card,,success,67,in_front_of,sort button
+check on tab,check,tab,strikethrough,,21,center_right,
+i think accept on table,accept,table,focused,add,5,nearest,
+de1ete dropdowp,delete,dropdown,,warning,,center,header
+can you cloke pocup,close,popup,info,upload,79,third,
+unpim icon,unpin,icon,collapsed,,92,first_column,
+check inpu7,check,input,underlined,previous,73,in_front_of,
+pllase submitt radio_button,submit,radio_button,,,39,in_front_of,delete button
+can you login document,login,document,,logout,42,before,notification panel
+please check search_box,check,search_box,small,previous,42,left_edge,
+unpin password,unpin,password,italic,,33,second_row,submit button
+check the document,check,document,,,,bottom_right,calendar view
+unpin radio_button,unpin,radio_button,,download,,left_edge,
+check the file,check,file,bold,email,,farthest,import button
+지우세요 image,delete,image,,profile,84,left_edge,
+drag slider,drag,slider,dark,,6,below,map view
+login the phone_number,login,phone_number,success,refresh,79,second,popup
+drag the notification,drag,notification,strikethrough,,,behind,
+launch the search_box,launch,search_box,green,,,behind,
+can you long_press text,long_press,text,,empty,,top_right,remove button
+삭제 chart,delete,chart,disabled,remove,61,lower_center,
+cax you launch search_b9x,launch,search_box,highlighted,,19,bottom_right,
+please delete file,delete,file,,,33,third,
+can you long_press gallery,long_press,gallery,large,,88,bottom_left,
+launch the poeup,launch,popup,green,,28,first_column,
+accept the phone_number,accept,phone_number,strikethrough,,85,third,password field
+long_press table,long_press,table,small,profile,2,bottom_right,sort button
+subm1t 7ocument,submit,document,yellow,warning,67,top_right,
+long_press the dialog,long_press,dialog,,ok,90,next_to,remove button
+long_press the slider,long_press,slider,collapsed,,92,behind,
+지우세요 card,delete,card,red,,,center,
+drag 아이콘,drag,icon,collapsed,,36,left,import button
+please long_press input,long_press,input,,,7,outside,save button
+unpin the text,unpin,text,,filter,65,next_to,
+checu calendar,check,calendar,red,,,behind,
+accept search_box,accept,search_box,,error,60,between,
+can you accept image,accept,image,,,71,below,message field
+close on camera,close,camera,,,95,third,calendar view
+losin the powup,login,popup,,,8,nearest,
+like delete text,delete,text,large,,36,after,dialog box
+launch document,launch,document,,next,58,bottom_left,
+please close graph,close,graph,,warning,70,center_right,save button
+can you login table,login,table,warning,email,66,behind,
+삭제해 radio_button,delete,radio_button,,,84,center,
+check image,check,image,,,,center_right,
+login graph,login,graph,,info,20,first_column,
+login radio_button,login,radio_button,strikethrough,,79,above,share button
+close the password,close,password,,,77,inside,image gallery
+deleet the strikethrough radio_2utton,delete,radio_button,strikethrough,,96,third,
+unpin the gallery,unpin,gallery,dark,,43,left,
+drag phone_number,drag,phone_number,light,submit,43,first_column,search bar
+deleet chart,delete,chart,,loading,,second_row,
+long_press radio_button,long_press,radio_button,,,84,bottom_left,
+submitt radio_button,submit,radio_button,danger,loading,,second,table view
+uh leaf graph,delete,graph,,,13,center,home button
+subm1t radio_button,submit,radio_button,,,36,bottom_left,main content
+please close camera,close,camera,,settings,18,after,email field
+drag search_box,drag,search_box,small,,,farthest,dialog box
+submitt file,submit,file,,export,61,farthest,
+like can you close search_box,close,search_box,yellow,,40,first_column,
+just please login popup,login,popup,,,99,behind,email field
+check dropdown,check,dropdown,,,99,second_last,chart view
+accept the switch,accept,switch,,add,33,third,
+just please submit text,submit,text,collapsed,sort,46,between,
+just long_press card,long_press,card,,,89,above,
+close on notification,close,notification,dark,filter,,last,
+i think please unpin camera,unpin,camera,underlined,filter,61,left_edge,
+please launch radio_button,launch,radio_button,focused,,4,lower_center,
+unpin dialog,unpin,dialog,,message,26,inside,
+전송 text,submit,text,small,,68,left_edge,modal
+accept the file,accept,file,active,,29,farthest,profile icon
+can xou launch dixlog,launch,dialog,,register,38,left_edge,message field
+check dialog,check,dialog,,login,69,third,
+can you unpin gallery,unpin,gallery,,,,next_to,main content
+submi7 the text,submit,text,small,,,after,
+please unpin calendar,unpin,calendar,strikethrough,,56,left_edge,
+close the calendar,close,calendar,,save,60,center,edit button
+long_press the search_box that is in_front_of the export button,long_press,search_box,,notification,41,in_front_of,export button
+you know launch the radio_button,launch,radio_button,secondary,address,84,left,
+drag radio_buttod right_edge dielog box,drag,radio_button,secondary,,40,right_edge,dialog box
+please long_press switch,long_press,switch,success,,,next_to,message field
+check tae tab,check,tab,,login,81,center_right,
+just check password,check,password,light,,72,third,
+can you launch password,launch,password,,,42,right_edge,message field
+please close audio,close,audio,bold,search,80,top_right,
+unpin th3 image,unpin,image,,,89,second,
+actually check message,check,message,blue,,17,inside,save button
+unpin 입력,unpin,input,italic,password,,last,download button
+c1o5e the graph,close,graph,yellow,,15,left_edge,add button
+accept dropdown,accept,dropdown,active,,,below,image gallery
+i think please drag menu,drag,menu,,,13,outside,
+please dr@g tab,drag,tab,,retry,,next_to,filter button
+can you accept password,accept,password,,password,6,farthest,
+deleet icon,delete,icon,info,,60,lower_center,
+can you unpin card,unpin,card,,notification,,first_column,
+c0n 1ou drag graph,drag,graph,,add,,bottom_right,phone field
+de leaf the search_box,delete,search_box,,,55,last,map view
+submitt text,submit,text,highlighted,,,second_row,
+delte smoll notification,delete,notification,small,,26,second_last,
+삭제해 document,delete,document,,,38,top_right,
+i think please submit text,submit,text,large,,,bottom_left,main content
+maybe submit the file,submit,file,info,,58,between,
+지우세요 slider,delete,slider,info,,18,first_column,
+check on file,check,file,secondary,,77,in_front_of,calendar view
+close switch,close,switch,,home,,below,card list
+deleet the image,delete,image,underlined,home,73,behind,address field
+delete message,delete,message,collapsed,alert,23,nearest,settings button
+long_press the inpu7,long_press,input,collapsed,,17,below,
+drag input,drag,input,,previous,39,lower_center,
+actually please close notification,close,notification,,,21,right_edge,
+삭제해 gallery,delete,gallery,large,,,last,
+login the progress_bar,login,progress_bar,,,,bottom_right,
+can you check graph,check,graph,active,sort,67,farthest,modal
+can you accept slider,accept,slider,,import,,bottom_left,
+unpin the message,unpin,message,,settings,,right_edge,
+actually please check tab,check,tab,,download,51,first_column,
+actually accept the chart,accept,chart,success,,,third,card list
+can you accept popup,accept,popup,,message,99,in_front_of,
+login password,login,password,red,,58,after,
+de1ete searfh_box,delete,search_box,highlighted,,0,under,share button
+please drag dialog,drag,dialog,yellow,register,,between,
+please drag table,drag,table,,alert,79,bottom_left,
+eong_press document,long_press,document,,export,21,left_edge,popup
+just check search_box,check,search_box,italic,,75,below,
+삭제 phone_number,delete,phone_number,primary,,20,last,
+login the switch,login,switch,,,20,under,
+unpin on gallery,unpin,gallery,warning,,55,second_last,
+please accept search_box,accept,search_box,,,75,right_edge,
+c1o5e the password,close,password,,,,after,main content
+please close radio_button,close,radio_button,underlined,retry,84,left_edge,
+please login graph,login,graph,,,51,bottom_right,main content
+please delete camera,delete,camera,focused,,69,under,
+삭제해 audio,delete,audio,secondary,,,left,
+actually please delete gallery,delete,gallery,light,,70,second_last,
+unsin grash,unpin,graph,,email,53,behind,
+i think close search_box,close,search_box,,,,in_front_of,
+draf on icqn,drag,icon,secondary,,,left_edge,top navigation
+can you accept tab,accept,tab,yellow,email,0,nearest,
+unpin input,unpin,input,danger,,33,center,chart view
+actually drag the password,drag,password,warning,submit,23,inside,refresh button
+login hink,login,link,focused,loading,87,right_edge,filter button
+삭제해 image,delete,image,,,96,lower_center,
+please de leaf dialog,delete,dialog,,refresh,,last,table view
+submit search_box,submit,search_box,expanded,edit,24,between,
+can you check text,check,text,,,83,above,edit button
+please dr@g messag3,drag,message,,,36,left,
+please c1o5e camera,close,camera,underlined,remove,84,under,
+drag menu,drag,menu,,,,top_right,
+please launch input,launch,input,warning,,82,lower_center,
+close the radio_button,close,radio_button,green,empty,77,bottom_left,
+지우세요 popup,delete,popup,small,share,,before,email field
+can 1ou subm1t camera,submit,camera,,,38,second,
+drag on gallery,drag,gallery,light,email,71,after,chart view
+check the phone_number,check,phone_number,light,,,second,
+accept g@llery,accept,gallery,italic,,,last_column,upload button
+you know please drag phone_number,drag,phone_number,red,,,next_to,map view
+please drag tadle,drag,table,,ok,88,second_row,
+삭제 graph,delete,graph,dark,,10,left,
+unpin the fi1e,unpin,file,,remove,26,after,upload button
+close document,close,document,,,83,in_front_of,
+check the text,check,text,yellow,,3,inside,card list
+accept card,accept,card,,confirm,35,lower_center,video player
+delete phone_numb3r,delete,phone_number,blue,,,top_right,
+maybe login dropdown,login,dropdown,,,,second,
+삭제해 calendar,delete,calendar,danger,email,,between,
+launch tee image,launch,image,italic,profile,99,second,
+accept phone_number,accept,phone_number,,download,,second,
+long_press the password,long_press,password,,,19,after,chart view
+please launch slider,launch,slider,,,,above,
+can you delete audio,delete,audio,success,,54,farthest,add button
+can you unpin icon,unpin,icon,,,89,in_front_of,footer
+ladnch gallery,launch,gallery,dark,,,second_row,
+c1o5e image,close,image,underlined,,,center,
+삭제해 link,delete,link,,,,top_right,
+close 입력,close,input,,error,21,inside,
+actually please unpin table,unpin,table,,,15,lower_center,footer
+clooe 8lider,close,slider,small,message,,behind,
+long_press gallery,long_press,gallery,focused,import,82,inside,
+please login input,login,input,blue,,,next_to,map view
+accepi switch,accept,switch,collapsed,,66,third,chart view
+launch the gallery,launch,gallery,italic,refresh,11,center_right,
+drag progress_bar,drag,progress_bar,expanded,,81,next_to,calendar view
+please c|ose input,close,input,,empty,,under,
+chzck text,check,text,collapsed,,53,right_edge,
+login icon,login,icon,,,47,bottom_left,sidebar menu
+long_press slider,long_press,slider,,,78,last,sort button
+login 아이콘,login,icon,,,,last_column,
+accept table,accept,table,,email,91,below,
+close the dialog,close,dialog,small,,65,last,
+삭제해 menu,delete,menu,strikethrough,profile,,center,footer
+unpin the menu,unpin,menu,,,2,outside,
+launch the tab,launch,tab,,,,bottom_left,
+i think drag switch,drag,switch,,,99,between,
+please launch calendar,launch,calendar,large,,,last,
+launch popup,launch,popup,highlighted,,8,second_last,top navigation
+dra1 calendar,drag,calendar,secondary,,27,next_to,
+i think submit dropdown,submit,dropdown,light,filter,89,farthest,
+uh leaf file,delete,file,,upload,56,under,
+clo5e the camera,close,camera,yellow,search,15,above,
+actually unpin the slider,unpin,slider,light,,,before,
+submit notification,submit,notification,primary,previous,,in_front_of,email field
+can you de1ete 7ink,delete,link,,,48,left,filter button
+2rag on calendar,drag,calendar,,login,74,first_column,settings button
+please launch file,launch,file,dark,edit,19,in_front_of,
+maybe please launch slider,launch,slider,success,,4,third,
+submit the file,submit,file,small,info,26,center_right,
+long_press image,long_press,image,green,login,97,after,
+close phone_number,close,phone_number,dark,ok,,between,cancel button
+launch card,launch,card,active,,89,bottom_right,table view
+login on image,login,image,,message,18,farthest,
+launch gallery,launch,gallery,light,edit,,last_column,audio player
+l0gin notification,login,notification,primary,submit,,after,settings button
+you know close card,close,card,,,,behind,
+please unpin radio_button,unpin,radio_button,primary,share,86,left,
+unpin the notification,unpin,notification,green,empty,,before,
+long_press phone_number,long_press,phone_number,,login,64,bottom_right,
+maybe unpin the switch,unpin,switch,danger,export,17,under,
+accept progress_bar after settings button,accept,progress_bar,success,alert,64,after,settings button
+login the tab,login,tab,green,,49,behind,
+like login progress_bar,login,progress_bar,expanded,,46,after,modal
+actually submit on document,submit,document,red,,,below,search bar
+delete the link,delete,link,primary,,38,center,
+unpin thh checkbox,unpin,checkbox,,,42,last,
+please delete graph,delete,graph,,edit,,above,table view
+please xheck progress_bar,check,progress_bar,info,,,third,upload button
+like accept search_box,accept,search_box,red,,3,bottom_left,
+cam you login icln,login,icon,green,,89,second_row,search field
+pleave drag next,drag,text,,empty,3,third,
+can you check image,check,image,danger,phone,90,second,image gallery
+i think long_press the message,long_press,message,warning,,93,third,
+check the notification,check,notification,,previous,,center,
+can you unpin chart,unpin,chart,,success,48,behind,
+you know long_press chart,long_press,chart,light,,44,under,table view
+launeh audiv,launch,audio,,error,,below,submit button
+can you launch chart,launch,chart,,error,,center,card list
+plnase logiz progress_bar,login,progress_bar,,,60,before,dialog box
+삭제해 phone_number,delete,phone_number,success,,,in_front_of,
+maybe unpin dropdown,unpin,dropdown,underlined,,61,last_column,
+lo4in the text,login,text,,password,,left_edge,edit button
+login notification,login,notification,,password,57,second_row,
+accept the calendar,accept,calendar,active,confirm,,bottom_right,
+delte dropdown,delete,dropdown,,upload,90,bottom_right,
+can you accept mab,accept,tab,dark,download,,last,
+plvase long_press audio,long_press,audio,info,,,last,
+submit on camera,submit,camera,yellow,empty,,second_row,main content
+laumch the switch,launch,switch,,add,6,under,map view
+please close menu,close,menu,,delete,83,last_column,
+please delte i3on,delete,icon,focused,logout,75,third,
+can you close message,close,message,small,,18,inside,
+long_press inpu7,long_press,input,disabled,filter,79,after,
+subm1t the notafication,submit,notification,primary,,13,next_to,
+please rrag twitch,drag,switch,,remove,55,below,
+submi7 camera,submit,camera,,,61,before,
+logi2 the slider,login,slider,blue,,63,farthest,
+long_press 체크박스,long_press,checkbox,,,57,below,
+unpin the chart,unpin,chart,,,61,between,phone field
+please close tab,close,tab,active,,77,center_right,
+unpin slider behind password field,unpin,slider,,settings,,behind,password field
+accept password,accept,password,,,,second_row,
+unpin graph,unpin,graph,blue,info,45,in_front_of,
+actually drag the radio_button,drag,radio_button,red,,78,bottom_right,
+can you drag progress_bar,drag,progress_bar,red,sort,16,inside,submit button
+unpin the progress_bar,unpin,progress_bar,success,,9,top_right,card list
+can you unpin checkbox,unpin,checkbox,strikethrough,,79,center,
+please unpin audio,unpin,audio,success,,86,second_last,
+accept popup,accept,popup,highlighted,,8,nearest,cart icon
+login on password,login,password,,,23,first_row,settings button
+can you submi7 nutification,submit,notification,,ok,7,nearest,
+check switch,check,switch,danger,,89,inside,map view
+like can you check text,check,text,,message,49,lower_center,
+삭제해 chart,delete,chart,,,47,after,
+i think drag slider,drag,slider,highlighted,upload,15,farthest,profile icon
+삭제 popup,delete,popup,,,26,behind,search bar
+삭제 password,delete,password,warning,upload,,lower_center,
+drag text,drag,text,,message,28,between,
+please accept docume0t,accept,document,small,error,,second_last,phone field
+launch on password,launch,password,,submit,,second,
+check tbe progrkss_bar,check,progress_bar,italic,upload,38,below,
+check thr addio,check,audio,,profile,22,bottom_left,
+check icon,check,icon,yellow,,64,last_column,edit button
+delete the chart,delete,chart,bold,,,lower_center,refresh button
+can you check n0tification,check,notification,,,52,in_front_of,
+login on dropdown,login,dropdown,,,,top_right,header
+login on document,login,document,large,empty,8,lower_center,
+just launch link,launch,link,yellow,previous,31,second_last,
+uh leaf link,delete,link,secondary,,,left_edge,upload button
+can you check menu,check,menu,primary,download,0,before,save button
+can you long_press dialog,long_press,dialog,blue,,,outside,
+you know delete icon,delete,icon,collapsed,login,,after,
+long_press on menu,long_press,menu,expanded,,88,inside,
+long_press on switch,long_press,switch,success,search,1,second_last,
+삭제 file,delete,file,disabled,,,in_front_of,
+submitt the vard,submit,card,success,add,86,second_row,
+check progress_bar,check,progress_bar,bold,loading,11,lower_center,
+check radio_button,check,radio_button,,,91,inside,add button
+like check progress_bar,check,progress_bar,highlighted,,,center,
+login tab,login,tab,blue,,,nearest,back button
+삭제해 file,delete,file,,,43,after,video player
+unpin on checkbox,unpin,checkbox,,,25,outside,
+long_prezs the camera,long_press,camera,,error,,last,refresh button
+drag on checkbox,drag,checkbox,,remove,,center_right,
+can you submit camera,submit,camera,info,ok,70,farthest,
+submit on search_box,submit,search_box,,,,last_column,
+like submit radio_button,submit,radio_button,,,,second_last,
+accept the camera,accept,camera,,,,between,save button
+please drag message,drag,message,light,,55,center_right,cancel button
+long_press input,long_press,input,highlighted,,80,first_column,
+delete the card,delete,card,focused,login,,second_row,popup
+login the red progress_bar,login,progress_bar,red,back,85,left_edge,
+please check table,check,table,,retry,44,last,
+subm1t the search2box,submit,search_box,active,,9,left,
+please check dialog,check,dialog,small,success,,last_column,
+can you unpin table,unpin,table,,,64,second_last,
+login on tab,login,tab,,,59,in_front_of,
+check link,check,link,,search,91,second,share button
+drag gallery,drag,gallery,,,,second_last,
+unpin on camera,unpin,camera,secondary,,,below,
+actually can you check calendar,check,calendar,,add,,right_edge,header
+launch the text,launch,text,focused,,69,center,filter button
+long_press on file,long_press,file,,search,75,second,
+delete tab,delete,tab,,,65,second,
+please drag tab,drag,tab,light,success,41,center,card list
+like can you check progress_bar,check,progress_bar,highlighted,loading,72,center,
+drag the document,drag,document,underlined,next,,outside,
+de1ete camera,delete,camera,underlined,,74,center_right,dialog box
+uh leaf phone_number,delete,phone_number,dark,upload,61,under,
+uh leaf table,delete,table,italic,error,,second_row,
+drag 체크박스,drag,checkbox,,,28,outside,map view
+delete notification,delete,notification,,confirm,81,behind,
+submit the dropdown,submit,dropdown,green,error,49,first_row,password field
+long_press progress_bar,long_press,progress_bar,,,40,outside,
+launch input,launch,input,,logout,71,first_row,
+login the gallery,login,gallery,danger,,73,outside,
+can you submit search_box,submit,search_box,yellow,,97,below,
+can yo3 unpin phone_number,unpin,phone_number,small,,16,inside,
+please unpin link,unpin,link,bold,import,45,left,chart view
+like unpin the search_box,unpin,search_box,,logout,88,behind,message field
+launch 아이콘,launch,icon,italic,,,third,
+just close phone_number,close,phone_number,,,,center_right,
+unpin on card,unpin,card,yellow,import,,second,audio player
+drag the menu,drag,menu,,,14,in_front_of,delete button
+pzease drao audio,drag,audio,small,,76,outside,sidebar menu
+check password,check,password,,profile,52,farthest,export button
+l0gin th3 dropdown,login,dropdown,expanded,,71,second_row,
+can you accept phone_number,accept,phone_number,info,,,lower_center,
+can you launch slider,launch,slider,disabled,,77,bottom_right,
+unpin switch above footer,unpin,switch,strikethrough,back,99,above,footer
+like long_press the card,long_press,card,large,empty,,in_front_of,
+launch the dark notification,launch,notification,dark,,35,center,
+long_press the menu,long_press,menu,green,address,79,last,
+delete the menu,delete,menu,disabled,settings,36,above,cart icon
+can yoi lo0in tixt,login,text,,,,outside,import button
+can you accept progress_bar,accept,progress_bar,highlighted,,46,nearest,
+delte the phone_number,delete,phone_number,strikethrough,,17,third,
+please drag audio,drag,audio,,home,,lower_center,
+c|ose progress_b@r,close,progress_bar,,,84,bottom_left,
+login on checkbox,login,checkbox,,,84,nearest,
+del3te the calendar,delete,calendar,collapsed,add,42,under,cancel button
+unp2n file,unpin,file,disabled,message,,between,audio player
+drag ahe phone_number,drag,phone_number,,,,behind,cancel button
+check messwge,check,message,,address,15,center_right,calendar view
+actually accept camera,accept,camera,,,,outside,
+close she 5ard,close,card,,,65,last,
+i think please close message,close,message,info,,49,before,share button
+c|ose input,close,input,,,55,bottom_left,download button
+please uh leaf input,delete,input,bold,notification,89,last,
+please close table,close,table,,,34,second,
+unpin import,unpin,calendar,,import,,after,
+uh leaf the dropdown,delete,dropdown,strikethrough,add,0,next_to,
+i think accept the dropdown,accept,dropdown,,,68,nearest,
+just close calendar,close,calendar,warning,error,,under,
+제출 dropdown,submit,dropdown,success,next,2,in_front_of,
+please ch3ck search_box,check,search_box,secondary,,74,farthest,settings button
+can you login graph,login,graph,underlined,phone,97,center_right,
+can you drag notification,drag,notification,large,,74,after,
+submit on radio_button,submit,radio_button,secondary,refresh,,last,search field
+can you submit card,submit,card,collapsed,remove,11,above,
+please check file,check,file,,,77,center_right,
+please long_press image,long_press,image,,,99,second_row,calendar view
+drag the checkbox,drag,checkbox,info,,37,between,image gallery
+login dropdown,login,dropdown,,,9,before,
+long_press the radio_button,long_press,radio_button,yellow,save,6,right_edge,
+check the icon,check,icon,secondary,,19,first_column,
+9an yiu drag camkra,drag,camera,,address,73,nearest,
+caf you accept 7raph,accept,graph,,,36,next_to,
+지우세요 dialog,delete,dialog,bold,logout,24,after,modal
+login phone_number,login,phone_number,info,save,,below,
+i think long_press password,long_press,password,warning,,,second_last,
+like please close checkbox,close,checkbox,,,,third,
+please unpin password,unpin,password,,,34,between,map view
+please close progress_bar,close,progress_bar,large,cancel,,after,
+long_press prqgress_bar,long_press,progress_bar,,,27,below,video player
+launch calenda1,launch,calendar,,search,,center,
+submit the text,submit,text,secondary,next,,bottom_left,
+close tabl4,close,table,,warning,28,nearest,
+submi7 dropdown,submit,dropdown,,submit,71,right_edge,map view
+login chart,login,chart,,empty,,right_edge,
+like accept message,accept,message,,previous,,farthest,download button
+close link,close,link,underlined,,78,farthest,
+lognn gallery,login,gallery,primary,confirm,,before,address field
+check the prpgress_bar,check,progress_bar,,,,behind,upload button
+like unpin the calendar,unpin,calendar,,,3,last_column,search field
+unpin tje text,unpin,text,secondary,back,36,between,
+just close the slider,close,slider,,,55,first_column,notification panel
+확인하세요 card,submit,card,strikethrough,,32,bottom_right,
+삭제 dialog,delete,dialog,highlighted,,,lower_center,submit button
+actually delete link,delete,link,,,93,outside,
+i think long_press progress_bar,long_press,progress_bar,dark,alert,,second_row,
+지우세요 graph,delete,graph,disabled,,17,behind,
+login switcn,login,switch,collapsed,next,1,outside,export button
+long_press dropdown,long_press,dropdown,italic,,64,after,
+unpin the link,unpin,link,danger,,89,outside,
+close radio_button,close,radio_button,strikethrough,,25,left_edge,audio player
+check graph,check,graph,,,70,farthest,main content
+1aunch the progress_bar,launch,progress_bar,focused,,63,before,cart icon
+launch the card,launch,card,,error,,in_front_of,cancel button
+accept mess@ge,accept,message,,,66,next_to,cart icon
+delete the document,delete,document,expanded,address,35,third,download button
+summit the search_box,submit,search_box,primary,,27,second_last,
+long_press tee slider,long_press,slider,,,38,second_row,calendar view
+check the fize,check,file,green,settings,,outside,delete button
+please long_pr3ss dialog,long_press,dialog,large,,,second,image gallery
+please l0ng_press dialog,long_press,dialog,,message,58,above,
+you know please launch chart,launch,chart,,,48,left,cart icon
+지우세요 audio,delete,audio,underlined,,36,farthest,
+ch3ck progress_bar,check,progress_bar,light,retry,,bottom_right,
+closb the audio,close,audio,secondary,logout,83,below,
+actually launch the link,launch,link,focused,settings,61,bottom_left,
+can you launch dropdown,launch,dropdown,,alert,49,second_row,
+just long_press radio_button,long_press,radio_button,success,remove,90,farthest,
+close the inp0t,close,input,,next,,lower_center,
+check the graph,check,graph,,,,right_edge,chart view
+please launch dropdown,launch,dropdown,,,88,in_front_of,
+drag the text,drag,text,,info,53,above,
+삭제해 notification,delete,notification,,search,60,next_to,
+i think login gallery lower_center popup,login,gallery,,import,9,lower_center,popup
+you know unpin the menu,unpin,menu,,download,50,above,
+please drag link,drag,link,collapsed,home,43,bottom_right,
+check input,check,input,large,phone,59,behind,
+launch phone_number behind menu button,launch,phone_number,yellow,,36,behind,menu button
+6ong_press the searchhbox,long_press,search_box,,,29,left,address field
+maybe drag the document,drag,document,disabled,,42,under,
+clo5e progress_bar,close,progress_bar,primary,,40,left_edge,notification panel
+you know login the calendar,login,calendar,underlined,,,left,save button
+login the search_box,login,search_box,,,,second_last,top navigation
+untin checkb5x,unpin,checkbox,,,63,above,
+de leaf table,delete,table,dark,,9,right_edge,
+check card,check,card,,previous,68,bottom_right,
+actually check the progress_bar,check,progress_bar,,,93,left_edge,
+ckn you gnpin cawd,unpin,card,italic,notification,4,inside,
+delete on audio,delete,audio,,email,,second_row,chart view
+check th3 icon,check,icon,highlighted,,43,outside,
+clo5e the switch,close,switch,light,import,11,behind,refresh button
+delete document,delete,document,focused,phone,34,right_edge,search field
+launch on icon,launch,icon,disabled,settings,53,in_front_of,
+you know please accept phone_number,accept,phone_number,light,,89,in_front_of,
+please de leaf card,delete,card,italic,,16,above,header
+clo5e phone_number,close,phone_number,,,,outside,
+login the slider,login,slider,primary,import,28,bottom_right,export button
+pleasd acc7pt popup,accept,popup,,,49,after,
+i think close icon,close,icon,,info,31,last,table view
+like drag phone_number,drag,phone_number,success,,76,center,footer
+please unpin document,unpin,document,bold,cancel,,first_column,audio player
+지우세요 calendar,delete,calendar,blue,success,,first_row,
+submit radio_button,submit,radio_button,dark,,69,in_front_of,top navigation
+삭제 message,delete,message,,,,left,settings button
+delete the dialog,delete,dialog,,,91,right_edge,submit button
+de1ete inp0t,delete,input,yellow,,31,second_last,
+login toe notification,login,notification,bold,,,nearest,
+chec9 phone_number,check,phone_number,large,remove,,left,
+delte the dialog,delete,dialog,success,,41,below,
+submitt nile,submit,file,,email,66,last,map view
+please deleet switch,delete,switch,,search,80,right_edge,video player
+long_press dialog,long_press,dialog,light,,76,second_row,menu button
+launch messake,launch,message,expanded,,,in_front_of,search field
+unpin on link,unpin,link,,,49,above,calendar view
+just can you accept notification,accept,notification,warning,share,,right_edge,
+please lon1_press carw,long_press,card,,,51,next_to,profile icon
+please launch tab,launch,tab,large,,,inside,
+drag the dropdown,drag,dropdown,red,,4,farthest,
+drag the message,drag,message,small,warning,,farthest,email field
+unpin 체크박스,unpin,checkbox,,,58,last,
+close the notification,close,notification,large,add,,above,password field
+check 입력,check,input,underlined,register,38,next_to,card list
+please submit text,submit,text,light,,,nearest,
+please login document,login,document,,info,,right_edge,main content
+maybe drag the calendar,drag,calendar,large,error,82,between,
+지우세요 phone_number,delete,phone_number,italic,,90,last,
+cao you check camera,check,camera,small,,,first_row,
+launch slider,launch,slider,,retry,18,inside,search bar
+지우세요 message,delete,message,secondary,,,below,settings button
+please submit file,submit,file,green,next,25,before,
+delete the slider,delete,slider,blue,back,75,second_last,
+you know login the checkbox,login,checkbox,,,62,bottom_right,
+delet notification,delete,notification,large,delete,30,second,
+unpin on slider,unpin,slider,blue,upload,,first_row,
+check the checkbox,check,checkbox,light,download,67,inside,search bar
+please long_press table,long_press,table,disabled,,9,bottom_right,
+please login checkbox,login,checkbox,,,,nearest,
+loggn tabpe,login,table,,,76,nearest,
+can you long_press audio,long_press,audio,,alert,,lower_center,
+login the file,login,file,primary,next,70,behind,home button
+submit on notification,submit,notification,collapsed,,,top_right,main content
+제출 document,submit,document,primary,,12,below,
+can you accept icon,accept,icon,,warning,90,before,
+logio qhart,login,chart,bold,,30,in_front_of,add button
+just please drag text,drag,text,small,,98,farthest,filter button
+a8cept checkbox,accept,checkbox,small,,53,nearest,
+c2ose image,close,image,disabled,save,,second_row,
+login audio,login,audio,highlighted,import,,second_row,share button
+close the d6cument,close,document,large,home,,last,popup
+삭제 dropdown,delete,dropdown,,,75,last,
+please accept card,accept,card,underlined,search,95,top_right,
+check on chart,check,chart,collapsed,confirm,41,left,remove button
+close the input,close,input,,,,before,
+submit on dropdown,submit,dropdown,success,settings,46,under,save button
+launch audio,launch,audio,bold,next,6,center,password field
+login the message,login,message,yellow,remove,23,lower_center,refresh button
+launch on file,launch,file,bold,delete,15,outside,add button
+삭제해 search_box,delete,search_box,,empty,96,under,
+accept chart,accept,chart,disabled,,50,next_to,
+you know login the dropdown,login,dropdown,,,,left_edge,download button
+check camera,check,camera,danger,empty,49,bottom_right,
+unpin on dialog,unpin,dialog,small,,48,behind,
+drag the gallery,drag,gallery,expanded,export,81,left_edge,
+l2unch tve radio_butfon,launch,radio_button,collapsed,,21,second_last,
+close the icon,close,icon,,,31,last_column,delete button
+i think please submit search_box,submit,search_box,light,email,61,after,
+launch notification last refresh button,launch,notification,,,,last,refresh button
+ylose the notffication,close,notification,,register,81,right_edge,
+close share,close,phone_number,,share,59,farthest,
+actually launch the switch,launch,switch,focused,next,2,top_right,
+please close phone_number,close,phone_number,,,,center,profile icon
+delte password,delete,password,red,search,72,nearest,video player
+accept link,accept,link,,remove,76,before,
+dr@g the chart,drag,chart,,,,behind,sidebar menu
+drag camera,drag,camera,,search,86,after,
+can you long_press slider,long_press,slider,active,,91,behind,table view
+check on camera,check,camera,,,,center,
+i think delete the icon,delete,icon,,add,,top_right,
+accept 입력,accept,input,,,3,top_right,share button
+delte 5he menu,delete,menu,,,56,last,
+maybe check the popup,check,popup,highlighted,add,84,center_right,
+login input,login,input,,address,,center,
+unpin on graph,unpin,graph,dark,,,above,menu button
+accppt document,accept,document,italic,,42,behind,
+please long_press tab,long_press,tab,highlighted,,12,after,
+you know accept image,accept,image,primary,register,,left,
+long_press on dialog,long_press,dialog,,,,top_right,
+지우세요 progress_bar,delete,progress_bar,secondary,settings,43,behind,search field
+logig the link,login,link,warning,save,,farthest,
+close gallery,close,gallery,yellow,,62,first_row,
+c1o5e the camera,close,camera,,,,top_right,
+accept checkbox,accept,checkbox,,notification,,between,
+drag checkbox,drag,checkbox,,,41,left_edge,notification panel
+please ch3ck progress_bar,check,progress_bar,,empty,,inside,top navigation
+please login password,login,password,italic,login,55,inside,
+please drag menu,drag,menu,green,empty,,behind,
+login the document,login,document,primary,previous,92,last_column,
+삭제 notification,delete,notification,,remove,89,second,
+actually can you check image,check,image,danger,add,79,last,
+plea1e unpin password,unpin,password,focused,delete,84,outside,home button
+accept the table,accept,table,yellow,,6,next_to,
+like submit the search_box,submit,search_box,,,,second,back button
+please launch phone_number,launch,phone_number,success,,6,lower_center,
+삭제해 입력,delete,input,italic,,57,inside,
+actually unpin gallery,unpin,gallery,blue,info,52,left,
+close audio,close,audio,,search,,under,back button
+please delte text,delete,text,,,53,left,search bar
+삭제해 slider,delete,slider,secondary,,99,second_row,
+drag image,drag,image,,cancel,,second_last,main content
+delet lhe icon,delete,icon,,import,88,below,
+login the radio_button,login,radio_button,,confirm,81,farthest,image gallery
+ch3ck message,check,message,disabled,,63,second_row,map view
+uipin the tab,unpin,tab,,success,,below,card list
+can you launch card,launch,card,info,,,left,
+login m3nu,login,menu,highlighted,,80,inside,refresh button
+long_press on graph,long_press,graph,secondary,login,,last_column,
+drag the phone_number,drag,phone_number,disabled,profile,81,under,
+unpin table second_row remove button,unpin,table,bold,,,second_row,remove button
+unpin on switch,unpin,switch,,profile,77,after,
+clo5e tab,close,tab,primary,home,18,outside,
+clo5e the file,close,file,,,17,outside,
+please long_press progress_bar,long_press,progress_bar,highlighted,export,82,first_column,
+just login phone_number,login,phone_number,success,,,left_edge,
+launch pqogress_bar bottom_right syare butt0n,launch,progress_bar,,back,87,bottom_right,share button
+can you close audio,close,audio,disabled,empty,77,first_row,cancel button
+submi7 document,submit,document,,register,36,after,
+login the checkbox,login,checkbox,success,,35,last,remove button
+delete gallery,delete,gallery,,,,top_right,
+long_press the camera,long_press,camera,,sort,8,center_right,
+close message,close,message,active,next,,third,
+launch thv gallery,launch,gallery,,,,between,
+actually please drag switch,drag,switch,light,,15,center,
+can you long_press graph,long_press,graph,,add,73,second,
+check the dropdown,check,dropdown,,,19,third,import button
+long_press whe slider,long_press,slider,,,67,after,profile icon
+long_press rhe search_oox,long_press,search_box,disabled,,,before,save button
+drag t6e image,drag,image,focused,login,83,between,cart icon
+please delet gallery,delete,gallery,light,,37,lower_center,
+accept thb ucon,accept,icon,,,,bottom_left,download button
+please cltse checkbox,close,checkbox,expanded,retry,80,next_to,
+uh leaf slider,delete,slider,red,,,nearest,audio player
+launch the phone_number,launch,phone_number,,save,39,under,main content
+i think submit the dropdown,submit,dropdown,warning,import,71,left,
+long_pr7ss progress_bvr,long_press,progress_bar,,home,35,under,
+please drag input,drag,input,active,loading,95,last,
+czn you accept switch,accept,switch,collapsed,,57,behind,
+삭제해 password,delete,password,yellow,,51,second_row,
+please check tab,check,tab,expanded,,58,left_edge,
+can you check input,check,input,expanded,,38,before,
+삭제해 card,delete,card,dark,profile,,after,
+delete camera,delete,camera,,,,after,
+trag ohe inpu,drag,input,yellow,previous,53,farthest,
+maybe long_press the icon,long_press,icon,,loading,3,under,
+please unpin file,unpin,file,highlighted,add,6,behind,
+submit the card,submit,card,,confirm,,before,
+plea7e launch icou,launch,icon,,,88,last_column,
+login camera,login,camera,blue,ok,96,left,sort button
+drag the table,drag,table,light,add,,lower_center,
+can you delete table,delete,table,,search,34,between,card list
+login th3 menu,login,menu,,ok,94,first_column,notification panel
+like please accept checkbox,accept,checkbox,collapsed,,95,nearest,
+you know check calendar,check,calendar,,,94,second_row,
+전송 dropdown,submit,dropdown,info,settings,17,outside,
+long_press password,long_press,password,,,41,third,
+please drag search_box,drag,search_box,secondary,delete,,outside,
+de1ete the imput,delete,input,underlined,,75,behind,message field
+like check the tab,check,tab,,,82,second_row,
+launch the dropdown,launch,dropdown,,,40,center,
+launch notificatuon,launch,notification,underlined,import,42,second_last,image gallery
+삭제 switch,delete,switch,,address,37,after,
+can you accept text,accept,text,danger,empty,,after,
+like submit notification,submit,notification,expanded,,0,below,
+please delete popup,delete,popup,,,86,center_right,
+please accept lenk,accept,link,info,,47,first_column,
+delete the image,delete,image,italic,,90,in_front_of,back button
+login on notification,login,notification,blue,email,,after,
+login the notification,login,notification,blue,,,second_row,
+accept graph,accept,graph,focused,,70,left,
+login the dialog,login,dialog,small,,99,top_right,
+login the t@b,login,tab,,sort,10,top_right,
+you know please close slider,close,slider,collapsed,,,right_edge,cancel button
+check the camera,check,camera,,,,next_to,menu button
+drag card,drag,card,,,26,first_column,
+like unpin link,unpin,link,yellow,,84,behind,
+unpin tab,unpin,tab,active,import,22,second_last,
+삭제해 아이콘,delete,icon,,remove,35,outside,notification panel
+unpiv drobdown,unpin,dropdown,focused,,40,before,
+accept on tab,accept,tab,italic,cancel,,first_row,sidebar menu
+hnpin phone_numb6r,unpin,phone_number,,alert,,first_column,
+please long_press text,long_press,text,underlined,,74,under,popup
+can you long_press search_box,long_press,search_box,yellow,,71,left_edge,table view
+acdept image,accept,image,secondary,,49,behind,
+please long_press gallery,long_press,gallery,,,71,outside,
+please login table,login,table,,,,inside,
+lsgin 0n dropdo2n,login,dropdown,strikethrough,,11,bottom_right,
+please check input,check,input,collapsed,,,right_edge,
+please submit search_box,submit,search_box,,refresh,51,outside,
+long_press audio,long_press,audio,,back,43,second_row,
+long_press the notification,long_press,notification,large,,,left,card list
+please unpin dialog,unpin,dialog,success,,88,first_row,save button
+can you check document,check,document,,,18,inside,delete button
+just please drag message,drag,message,warning,,,between,
+제출 notification,submit,notification,,,10,last,
+please long_press password,long_press,password,,,95,below,
+like please accept password,accept,password,large,export,66,left_edge,save button
+전송 camera,submit,camera,warning,,98,second_row,
+clo5e the pas5word,close,password,highlighted,,,top_right,cancel button
+just launch the search_box,launch,search_box,,empty,99,before,back button
+지우세요 file,delete,file,info,,56,last,search bar
+actually long_press the tab,long_press,tab,warning,,,farthest,
+check search_box,check,search_box,primary,,2,behind,
+please submit card,submit,card,bold,register,71,farthest,
+submitt search_box,submit,search_box,focused,search,87,before,
+clo5e radio_button,close,radio_button,disabled,profile,93,left,chart view
+close the graph,close,graph,,,,last_column,card list
+launch on text,launch,text,primary,login,13,outside,calendar view
+i think submit search_box,submit,search_box,highlighted,,,last,
+close on calendar,close,calendar,,,44,last,
+check the switch,check,switch,,,43,top_right,
+check the table,check,table,,,16,nearest,
+unpin the phone_number,unpin,phone_number,expanded,,,in_front_of,
+please drag notification,drag,notification,collapsed,,38,below,
+acvept tab,accept,tab,highlighted,phone,5,left,address field
+please check switch,check,switch,,,2,right_edge,message field
+check on link,check,link,,,71,nearest,
+pleast launch switcl,launch,switch,,filter,,third,
+please launch dialog,launch,dialog,,,,after,
+launch the chart,launch,chart,bold,,56,center_right,
+launch camera,launch,camera,large,import,,in_front_of,
+like launch the notification,launch,notification,,save,32,bottom_left,back button
+can you unpin tab,unpin,tab,active,,,above,phone field
+long_press message,long_press,message,dark,,75,after,
+accept audio,accept,audio,small,address,64,next_to,search bar
+삭제 radio_button,delete,radio_button,active,,52,second,sort button
+i think close the phone_number,close,phone_number,collapsed,edit,79,center_right,popup
+please closk camera,close,camera,red,profile,27,outside,
+delete the audio,delete,audio,strikethrough,,69,behind,
+accept 아이콘,accept,icon,active,ok,4,next_to,chart view
+삭제해 popup,delete,popup,,,,center,chart view
+check the chart,check,chart,,previous,,in_front_of,
+launch message,launch,message,,,,nearest,
+pl3ase accept slider,accept,slider,large,,,in_front_of,address field
+login calendar,login,calendar,light,,,left_edge,
+delete switch,delete,switch,warning,,66,in_front_of,
+pleise accepj phone_numbdr,accept,phone_number,warning,message,14,second_last,password field
+you know long_press the dropdown,long_press,dropdown,highlighted,next,37,outside,
+accept image,accept,image,small,remove,22,second_row,
+delte manu,delete,menu,warning,info,96,center_right,
+drag table,drag,table,,,,last,
+drag the glider,drag,slider,success,export,11,under,
+delte the slider,delete,slider,green,,66,right_edge,
+please close chezkbox,close,checkbox,,,72,outside,
+long_press on password,long_press,password,underlined,,,first_column,
+제출 search_box,submit,search_box,highlighted,back,,third,
+you know can you submit text,submit,text,secondary,,86,outside,
+delet phoneknumber,delete,phone_number,small,search,31,lower_center,
+please close checkbox,close,checkbox,,delete,54,farthest,
+launch the notification,launch,notification,expanded,loading,44,center_right,top navigation
+please launch menu,launch,menu,,profile,45,top_right,
+close the popup,close,popup,,,,in_front_of,
+please login audio,login,audio,secondary,,,center,map view
+unpin card,unpin,card,large,logout,87,second_row,
+long_pbess the 1ialog,long_press,dialog,,,12,center,
+please drag graph,drag,graph,active,,,inside,main content
+unpin the graph,unpin,graph,,import,9,next_to,
+long_press on card,long_press,card,,,,center_right,refresh button
+삭제 search_box,delete,search_box,dark,,54,outside,
+de leaf image,delete,image,,success,84,top_right,
+unpin image,unpin,image,strikethrough,upload,20,second,
+전송 notification,submit,notification,primary,sort,16,nearest,
+지우세요 text,delete,text,primary,email,7,left_edge,export button
+deleet switch,delete,switch,underlined,,96,after,
+please unpyn icon,unpin,icon,light,,13,lower_center,
+login gallery,login,gallery,,,,nearest,
+you know launch notification,launch,notification,info,export,81,bottom_left,
+check dark gallery,check,gallery,dark,import,,second,
+logi4 the switch,login,switch,light,,21,lower_center,image gallery
+삭제 menu,delete,menu,dark,,36,behind,
+launch link,launch,link,danger,submit,,in_front_of,
+de1ete thn notification,delete,notification,,,,after,
+launch the icon,launch,icon,primary,,34,inside,
+maybe check phone_number,check,phone_number,,,,below,popup
+just check calendar,check,calendar,small,filter,91,bottom_left,dialog box
+check file,check,file,collapsed,,60,left_edge,
+i think can you drag dialog,drag,dialog,small,,,left,
+can you login notification,login,notification,,,15,center,
+long_press notification,long_press,notification,disabled,edit,40,second_row,
+please drag phone_number,drag,phone_number,light,settings,,outside,
+can you login menu,login,menu,,next,,below,modal
+unpin icon,unpin,icon,,back,34,second_row,
+like launch the password,launch,password,,logout,47,after,chart view
+unpin the uudio,unpin,audio,yellow,,18,second,settings button
+long_press on camera,long_press,camera,small,,24,last_column,
+please check link,check,link,warning,,18,farthest,audio player
+please long_press document,long_press,document,,register,,first_row,card list
+drag notification,drag,notification,dark,logout,70,next_to,remove button
+submit the radio_button,submit,radio_button,strikethrough,,89,bottom_right,
+long_press table second_row main content,long_press,table,large,,78,second_row,main content
+unpin the image,unpin,image,,filter,,bottom_right,
+pdease check gallety,check,gallery,,info,84,last_column,
+plea3e unpin calendaz,unpin,calendar,warning,,,bottom_left,
+launch on chart,launch,chart,primary,,39,next_to,
+please unpin graph,unpin,graph,,,2,center_right,notification panel
+you know login table,login,table,,refresh,,second,profile icon
+launch on search_box,launch,search_box,,,,inside,delete button
+can you unpin menu,unpin,menu,,sort,,second_last,
+summit tekt,submit,text,,,,under,
+delete on dialog,delete,dialog,,,99,top_right,table view
+launch the link,launch,link,,,,next_to,
+just close document,close,document,,,86,second_row,
+long_press icon,long_press,icon,danger,upload,67,bottom_left,
+please check document,check,document,large,,83,left_edge,
+check document,check,document,,,9,second,
+can you launch icon,launch,icon,strikethrough,,16,third,
+please close file,close,file,expanded,,,before,
+accept the card,accept,card,,,17,last,
+지우세요 search_box,delete,search_box,strikethrough,share,87,after,header
+accept th3 progress_bar,accept,progress_bar,strikethrough,add,,bottom_right,
+long_press the dropdown,long_press,dropdown,bold,,,in_front_of,search bar
+please accept chart,accept,chart,primary,,18,inside,import button
+actually launch document,launch,document,disabled,,,bottom_right,
+c|ose the input,close,input,primary,,,center,import button
+can you login checkbox,login,checkbox,red,,48,between,add button
+please accept input,accept,input,,empty,,last,image gallery
+can you long_press tab,long_press,tab,,add,16,outside,
+unpin the tab,unpin,tab,focused,,,inside,
+delet the slider,delete,slider,,retry,50,after,header
+drag message,drag,message,danger,next,52,top_right,
+long_press the phone_number,long_press,phone_number,,,34,behind,
+please laun3h 9ext,launch,text,,search,,below,
+delete the icon,delete,icon,,edit,83,last_column,profile icon
+accept email,accept,file,,email,14,right_edge,
+logwn the imdge,login,image,strikethrough,profile,,center,download button
+submit dropdown,submit,dropdown,,save,33,bottom_left,delete button
+drag on icon,drag,icon,expanded,,90,above,import button
+accent the popup,accept,popup,strikethrough,next,22,left,
+you know drag dialog,drag,dialog,collapsed,home,45,farthest,menu button
+login xink,login,link,dark,,31,second,home button
+close dropdown,close,dropdown,,back,46,right_edge,
+accept switch,accept,switch,bold,,,top_right,map view
+accept on camera,accept,camera,,,,below,download button
+long_press switch,long_press,switch,small,add,,right_edge,
+login imagu,login,image,,,,above,
+plea5e c1o5e text,close,text,small,confirm,,left_edge,export button
+uh leaf the image,delete,image,red,,51,below,sort button
+accept th3 dropdown,accept,dropdown,blue,next,36,top_right,
+please close password,close,password,,,12,third,
+pleese oaunch audio,launch,audio,,,,between,
+can you unpin image,unpin,image,,cancel,,bottom_left,
+lowin progress_bar,login,progress_bar,disabled,password,97,right_edge,
+launch menu,launch,menu,focused,share,42,second_row,save button
+unpin notification,unpin,notification,secondary,alert,,first_row,
+please login fvle,login,file,large,,,inside,submit button
+delet thc gallery,delete,gallery,,retry,51,in_front_of,home button
+please login dialog,login,dialog,large,,68,first_column,
+launch the file,launch,file,large,import,78,second_last,
+accept the radio_button,accept,radio_button,warning,,,lower_center,
+check tab,check,tab,,,52,next_to,
+close file,close,file,,cancel,83,above,add button
+please drag calendar,drag,calendar,info,,76,second,
+unpin switch,unpin,switch,success,delete,6,in_front_of,add button
+close on switch,close,switch,,share,,outside,delete button
+unpin the switch,unpin,switch,,message,,last,share button
+actually check link,check,link,,import,26,top_right,
+please check menu,check,menu,italic,,,center,
+accept on 9ile,accept,file,yellow,import,70,behind,modal
+accept the audio,accept,audio,,,67,last,refresh button
+you know please login image,login,image,warning,,84,nearest,settings button
+launch calend@r,launch,calendar,blue,,21,after,
+maybe please check dialog,check,dialog,,,,before,
+checd thd switch,check,switch,,,84,inside,footer
+delete the switch,delete,switch,light,,16,second,
+login the text,login,text,disabled,address,,above,top navigation
+please delete dialog,delete,dialog,,filter,59,under,
+지우세요 dropdown,delete,dropdown,,warning,96,left,sort button
+삭제해 progress_bar,delete,progress_bar,,,81,inside,message field
+login xn link,login,link,,,26,last_column,profile icon
+unpin the dialog,unpin,dialog,warning,empty,23,second,
+launch the slider,launch,slider,,,74,before,
+please long_press camera,long_press,camera,underlined,,34,second_last,
+can you drag link,drag,link,,,58,top_right,
+i think login checkbox,login,checkbox,primary,address,67,last_column,
+laun6h calendar,launch,calendar,active,cancel,59,lower_center,
+unpin text,unpin,text,large,,90,next_to,popup
+de leaf file,delete,file,,,8,top_right,download button
+submit large notification,submit,notification,large,,88,last_column,
+launch file,launch,file,italic,,49,in_front_of,
+please login file,login,file,green,,88,center,
+pwease acwept dropdown,accept,dropdown,secondary,add,,outside,
+long_press the gallery,long_press,gallery,italic,upload,38,under,
+unpin the document,unpin,document,,back,58,below,save button
+please c1o5e message,close,message,red,,68,lower_center,phone field
+can you login tab,login,tab,,,0,under,
+just submit text,submit,text,,ok,42,below,edit button
+delet thn graph,delete,graph,,,,farthest,
+like login on file,login,file,,,,between,
+accept gallery,accept,gallery,yellow,alert,73,last_column,filter button
+c|ose the icon,close,icon,,login,79,last,
+long_press 8he taa,long_press,tab,,,,second_row,
+de1ete ihe calendar,delete,calendar,strikethrough,,90,nearest,
+launch iaage,launch,image,yellow,,7,lower_center,search bar
+just login the message,login,message,secondary,,57,next_to,
+long_pr3ss the gallery,long_press,gallery,,next,56,in_front_of,cart icon
+accept the input,accept,input,,,15,third,
+drag the success progress_bar,drag,progress_bar,success,import,,second_last,
+uh leaf the tab,delete,tab,red,previous,21,under,address field
+can you launch file,launch,file,,export,,below,cart icon
+can you close chart,close,chart,focused,,65,third,phone field
+please submit dropdown,submit,dropdown,danger,message,62,bottom_right,notification panel
+삭제해 tab,delete,tab,italic,,55,last_column,
+i think drag checkbox,drag,checkbox,info,upload,56,second,
+please unpin switch,unpin,switch,collapsed,logout,,first_row,
+please launch camera,launch,camera,info,,33,last_column,
+cyn y6u accept menu,accept,menu,underlined,,,first_column,
+check the dialog,check,dialog,small,login,,lower_center,cancel button
+you know can you launch dropdown,launch,dropdown,blue,refresh,,between,header
+login dialog,login,dialog,info,,,top_right,search bar
+submit th3 dropdown,submit,dropdown,success,email,42,first_column,
+like close notification,close,notification,underlined,delete,67,next_to,
+please drag chart,drag,chart,,login,,top_right,
+long_press on progress_bar,long_press,progress_bar,warning,search,16,center_right,
+delete the gallery,delete,gallery,,retry,,lower_center,
+삭제해 dropdown,delete,dropdown,,,,between,remove button
+can you launch radio_button,launch,radio_button,disabled,,81,first_row,image gallery
+close password,close,password,small,import,,center_right,settings button
+i think please launch table,launch,table,,remove,,second,
+close image,close,image,primary,ok,,before,sidebar menu
+drag an camera,drag,camera,red,alert,66,center_right,search field
+like can you unpin calendar,unpin,calendar,large,,,farthest,
+please launch text,launch,text,,success,,first_column,
+삭제 link,delete,link,expanded,,94,before,
+actually launch dropdown,launch,dropdown,,,34,left_edge,image gallery
+drag calendar,drag,calendar,,,92,second_last,
+long_press the message,long_press,message,large,ok,64,outside,
+actually drag the phone_number,drag,phone_number,red,,67,behind,import button
+accept the message,accept,message,highlighted,,50,left,
+close the menu,close,menu,,,29,bottom_right,
+check 0he calendar,check,calendar,warning,home,5,after,submit button
+long_press the document,long_press,document,bold,export,,below,
+delete on gallery,delete,gallery,,,94,after,upload button
+please delete input,delete,input,secondary,download,71,next_to,
+please ltng_press tab,long_press,tab,,,28,before,
+accept 4he camera,accept,camera,collapsed,,50,nearest,calendar view
+close 체크박스,close,checkbox,secondary,upload,,left,save button
+long_press noti7ication,long_press,notification,,add,23,outside,
+please drag progress_bar,drag,progress_bar,info,warning,84,nearest,
+전송 search_box,submit,search_box,,export,39,left_edge,
+delet tyb,delete,tab,red,export,97,second,
+long_press texp,long_press,text,dark,,,center_right,audio player
+unpin file,unpin,file,expanded,,37,farthest,
+전송 radio_button,submit,radio_button,,edit,35,farthest,
+please launch audio,launch,audio,bold,error,,first_row,delete button
+delete the camera,delete,camera,,,63,last_column,
+p1ease unpin card,unpin,card,primary,back,,next_to,modal
+drqg imput,drag,input,,,84,outside,
+check on calendar,check,calendar,,export,79,last_column,
+you know check the radio_button,check,radio_button,success,,,farthest,
+unpin on text,unpin,text,italic,success,87,center,edit button
+can you launch phone_number,launch,phone_number,,,,next_to,
+long_press file,long_press,file,underlined,email,13,above,home button
+nan you cheyk phone_numben,check,phone_number,expanded,export,31,inside,filter button
+login the password,login,password,red,,28,left,map view
+delete the table,delete,table,highlighted,,,behind,
+unpin the dropdown,unpin,dropdown,collapsed,,25,before,
+please accept message,accept,message,collapsed,back,,first_row,sort button
+login the popup,login,popup,yellow,,57,between,image gallery
+please long_press file,long_press,file,small,,,in_front_of,
+please delete audio,delete,audio,italic,,89,top_right,footer
+like please login input,login,input,strikethrough,,96,top_right,search field
+i think login message,login,message,,,,nearest,
+check calendar,check,calendar,blue,address,95,inside,notification panel
+drag seadch_box,drag,search_box,,,,under,
+can you check search_box,check,search_box,,success,76,in_front_of,
+just please unpin checkbox,unpin,checkbox,yellow,search,,bottom_left,
+check gallery,check,gallery,green,,,farthest,
+please unpin gallery,unpin,gallery,highlighted,search,63,next_to,
+u8pin dable,unpin,table,,,27,second_row,
+please check gallery,check,gallery,,,54,behind,
+login document,login,document,,,41,above,back button
+long_press graph,long_press,graph,large,phone,,next_to,
+maybe please drag file,drag,file,,,67,first_row,
+long_press link,long_press,link,,search,79,in_front_of,export button
+확인하세요 camera,submit,camera,danger,,50,right_edge,
+launch inpu7,launch,input,,profile,,next_to,
+unpin the search_box,unpin,search_box,success,search,13,left_edge,
+accept message,accept,message,,refresh,81,first_column,
+close the search_box,close,search_box,light,,94,before,
+submit camer@,submit,camera,disabled,remove,67,first_column,phone field
+delete progress_bar,delete,progress_bar,focused,,,last,
+can you check message,check,message,green,share,,bottom_right,
+please launc5 table,launch,table,light,,,behind,
+please c1o5e icon,close,icon,,,6,first_column,
+summit t7e fil5,submit,file,collapsed,download,31,below,sidebar menu
+cseck card,check,card,expanded,,22,below,modal
+can you unpin popup,unpin,popup,,info,,last,
+지우세요 menu,delete,menu,,remove,49,bottom_left,delete button
+please drag text,drag,text,,phone,1,left_edge,
+please login icon,login,icon,,register,98,between,notification panel
+please close popup,close,popup,large,save,37,before,popup
+check table,check,table,success,success,,farthest,
+close menu,close,menu,bold,,,nearest,import button
+bogin tab,login,tab,,,2,behind,
+unpin the file,unpin,file,strikethrough,submit,31,inside,
+accept inpu7,accept,input,,,23,last_column,
+please unpin image,unpin,image,,,71,first_row,
+can you delete switch,delete,switch,strikethrough,success,36,next_to,
+close thm inpu,close,input,info,warning,7,second_last,
+delete the input,delete,input,primary,home,,first_row,
+like login dialog,login,dialog,danger,error,32,bottom_left,audio player
+oan 1ou drag graph,drag,graph,,,62,last_column,
+i think close switch,close,switch,success,,,last,
+check checkbox,check,checkbox,expanded,next,30,lower_center,
+launch the table,launch,table,,retry,96,farthest,image gallery
+can you launch audio,launch,audio,,,88,second,
+long_press the input,long_press,input,,,76,third,
+accept the ilider,accept,slider,,add,48,between,
+please long_press card,long_press,card,,,58,farthest,
+login the audio,login,audio,,error,39,below,modal
+maybe check the audio,check,audio,green,save,60,center_right,
+delete checkbox,delete,checkbox,,filter,19,before,
+de1ete the slider,delete,slider,,login,12,before,
+just login notification,login,notification,,,8,first_row,filter button
+delet dialog,delete,dialog,blue,message,,second_last,
+please drag popup,drag,popup,,,,left,phone field
+can you close card,close,card,collapsed,filter,78,third,
+please lojin card,login,card,,back,,behind,card list
+launch the li0k,launch,link,underlined,,,bottom_right,
+wheck tee search_box,check,search_box,expanded,,,farthest,
+can you long_press message,long_press,message,,share,,second_last,submit button
+you know long_press the progress_bar,long_press,progress_bar,,,,left,
+maybe drag search_box,drag,search_box,,add,,last,
+close camera,close,camera,,previous,,in_front_of,
+accepo thx switch,accept,switch,highlighted,,,below,
+long_pres5 phone_numb3r,long_press,phone_number,,,7,below,
+i think close tab,close,tab,,share,10,between,back button
+drag dialog,drag,dialog,danger,,45,last,profile icon
+long_press uhe search_box,long_press,search_box,,,25,first_column,
+uh leaf text,delete,text,,next,0,in_front_of,
+c1o5e radio_button,close,radio_button,success,warning,15,left_edge,
+leng_press the link,long_press,link,,notification,40,second_last,search bar
+you know long_press the audio,long_press,audio,,loading,13,first_column,
+check on menu,check,menu,collapsed,confirm,12,bottom_right,
+accept radio_button,accept,radio_button,success,retry,8,farthest,
+like submit the card,submit,card,danger,address,10,top_right,
+delte popup,delete,popup,small,,26,bottom_left,video player
+확인하세요 file,submit,file,yellow,previous,,second_last,search bar
+close peone_number,close,phone_number,,email,,below,filter button
+확인하세요 document,submit,document,,loading,51,second_row,password field
+unpin document,unpin,document,light,notification,,inside,card list
+can you close calendar,close,calendar,success,download,1,above,modal
+check the calendar,check,calendar,,save,,farthest,table view
+please drag radio_button,drag,radio_button,dark,next,,bottom_right,add button
+launch progress_bar,launch,progress_bar,secondary,filter,,top_right,
+accept oc notification,accept,notification,,submit,47,left_edge,
+you know delete checkbox,delete,checkbox,highlighted,,,farthest,email field
+long_press searcb_box,long_press,search_box,,,70,third,audio player
+close the image,close,image,,,91,nearest,footer
+i think accept link,accept,link,red,,10,outside,
+can you check dialog,check,dialog,,,50,first_row,
+long_pres0 the cary,long_press,card,highlighted,success,69,second,dialog box
+actually submit the notification,submit,notification,,share,,second,
+can you accept audio,accept,audio,,previous,17,last_column,
+car ycu deleet image,delete,image,green,,7,right_edge,
+please accept menu,accept,menu,bold,,,center_right,settings button
+submit the camera,submit,camera,focused,loading,63,first_row,save button
+please long_press audio,long_press,audio,red,,32,inside,
+drag the calendar,drag,calendar,green,,8,left_edge,header
+please delete chart,delete,chart,,login,83,bottom_left,
+actually drag on audio,drag,audio,small,notification,86,inside,
+확인하세요 notification,submit,notification,,register,,center,audio player
+please submit radio_button,submit,radio_button,large,,17,bottom_left,
+please delete search_box,delete,search_box,,upload,96,left_edge,
+drag 입력,drag,input,green,back,6,inside,search field
+delete icon,delete,icon,,home,93,second_last,
+c1o5e audio,close,audio,warning,submit,58,above,notification panel
+drag the image,drag,image,,,,outside,table view
+accept on p0pup,accept,popup,,share,86,below,password field
+check radi2_button,check,radio_button,,warning,72,second,search field
+check th6 sear7h_box,check,search_box,danger,,71,nearest,
+close the audio,close,audio,,settings,12,after,
+accept text,accept,text,highlighted,password,86,first_row,
+long_press the switch,long_press,switch,large,info,,left,sort button
+drag document,drag,document,,login,79,center_right,filter button
+long_press the graph,long_press,graph,collapsed,,7,below,cancel button
+actually check gallery,check,gallery,active,,96,bottom_left,
+pl3ase c1o5e tab,close,tab,underlined,sort,,bottom_right,password field
+삭제해 graph,delete,graph,,,35,second_last,
+check menu,check,menu,,,49,second_row,audio player
+close text,close,text,blue,,78,second_last,profile icon
+can yju accept table,accept,table,red,sort,85,bottom_left,
+can you launch document,launch,document,,,6,first_column,
+accept the danger switch,accept,switch,danger,remove,,next_to,
+please check phone_number,check,phone_number,italic,,,center,
+accept on dropdown,accept,dropdown,dark,notification,95,bottom_left,
+지우세요 table,delete,table,,back,74,top_right,
+can you close image,close,image,,,54,nearest,
+d6ag the password,drag,password,collapsed,phone,36,bottom_left,back button
+login teyt,login,text,,back,19,last_column,
+can you long_press image,long_press,image,,,11,outside,

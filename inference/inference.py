@@ -16,26 +16,78 @@ from model import MultitaskIntentModel, ConfigManager
 class IntentRecognitionInference:
     """Offline inference engine for intent recognition."""
 
-    def __init__(self, model_path: str = "bert_tiny_model", device: str = "cpu"):
+    def __init__(self, model_path: str = None, device: str = "cpu"):
         """Initialize model and tokenizer."""
         self.device = torch.device(device)
-        self.model_path = model_path
 
-        self.tokenizer = AutoTokenizer.from_pretrained(model_path)
+        # Auto-detect model path
+        if model_path is None:
+            if Path("models/model_best.pt").exists():
+                model_path = "models"
+            elif Path("../models/model_best.pt").exists():
+                model_path = "../models"
+            elif Path("bert_tiny_model").exists():
+                model_path = "bert_tiny_model"
+            elif Path("../bert_tiny_model").exists():
+                model_path = "../bert_tiny_model"
+            else:
+                model_path = "bert-base-multilingual-uncased"
+
+        self.model_path = model_path
+        print(f"Using model path: {model_path}")
+
+        # Load tokenizer from pretrained
+        self.tokenizer = AutoTokenizer.from_pretrained("bert-base-multilingual-uncased")
+
+        # Initialize model architecture
         self.model = MultitaskIntentModel(
-            model_name=model_path,
+            model_name="bert-base-multilingual-uncased",
             num_intents=len(ConfigManager.INTENTS),
             num_entities=len(ConfigManager.ENTITY_TYPES)
         ).to(self.device)
 
-        model_weights = f"{model_path}/pytorch_model.bin"
-        if Path(model_weights).exists():
-            self.model.load_state_dict(torch.load(model_weights, map_location=self.device))
-        else:
-            print(f"Warning: Model weights not found at {model_weights}")
+        # Try to load trained weights
+        model_weight_paths = [
+            f"{model_path}/model_best.pt",
+            f"{model_path}/pytorch_model.bin",
+            f"{model_path}/quantized_model.pt",
+        ]
+
+        weights_loaded = False
+        for weight_path in model_weight_paths:
+            if Path(weight_path).exists():
+                try:
+                    # Use weights_only=False for compatibility with existing models
+                    state_dict = torch.load(weight_path, map_location=self.device, weights_only=False)
+
+                    # Filter out incompatible keys if loading into different architecture
+                    if isinstance(state_dict, dict) and 'model' not in state_dict:
+                        # Try to load as-is first
+                        try:
+                            self.model.load_state_dict(state_dict)
+                        except RuntimeError:
+                            # If that fails, try loading as encoder weights
+                            encoder_keys = {k: v for k, v in state_dict.items() if 'encoder' in k or 'bert' in k}
+                            if encoder_keys:
+                                self.model.encoder.load_state_dict(encoder_keys, strict=False)
+                                print(f"[OK] Loaded encoder weights from {weight_path}")
+                                weights_loaded = True
+                                break
+                    else:
+                        self.model.load_state_dict(state_dict, strict=False)
+                        weights_loaded = True
+
+                    if weights_loaded:
+                        print(f"[OK] Loaded weights from {weight_path}")
+                        break
+                except Exception as e:
+                    print(f"Note: Could not load {weight_path}: {type(e).__name__}")
+
+        if not weights_loaded:
+            print("Note: Using base BERT weights (no fine-tuned model loaded)")
 
         self.model.eval()
-        print(f"Model loaded from {model_path} on device {device}")
+        print(f"[OK] Model ready on device: {device}")
 
     def extract_target_info(self, command: str) -> Dict[str, Optional[str]]:
         """Extract target object and related information from command."""

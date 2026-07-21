@@ -198,11 +198,20 @@ def train():
     tokenizer = AutoTokenizer.from_pretrained(ConfigManager.MODEL_CONFIG['model_name'])
 
     import os
-    dataset_path = 'dataset/dataset.csv'
+    # Use balanced dataset for faster training (covers all scenarios)
+    dataset_path = 'dataset/dataset_balanced_1932.csv'
     if not os.path.exists(dataset_path):
-        dataset_path = '../dataset/dataset.csv'
+        dataset_path = '../dataset/dataset_balanced_1932.csv'
 
+    # Fallback to full dataset if balanced version doesn't exist
+    if not os.path.exists(dataset_path):
+        dataset_path = 'dataset/dataset.csv'
+        if not os.path.exists(dataset_path):
+            dataset_path = '../dataset/dataset.csv'
+
+    print(f"Loading dataset: {dataset_path}")
     dataset = IntentDataset(dataset_path, tokenizer)
+    print(f"Loaded {len(dataset)} samples")
 
     train_dataset, eval_dataset = split_dataset(dataset, train_ratio=0.8)
 
